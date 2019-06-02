@@ -1,4 +1,4 @@
-# Trinity+: Next-generation Synthesizer for Data Science
+# (RL Ver.)Trinity+: Next-generation Synthesizer for Data Science
 
 Dev Environment Setup
 =====================
