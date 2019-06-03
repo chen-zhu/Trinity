@@ -224,6 +224,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- select({table}, {cols})'.format(
                    ret_df=ret_df_name, table=args[0], cols=get_collist(args[1]))
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -241,6 +242,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- select({table}, {cols})'.format(
                    ret_df=ret_df_name, table=args[0], cols=get_collist(args[1]))
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -263,6 +265,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- unite({table}, {TMP}, {col1}, {col2})'.format(
                   ret_df=ret_df_name, table=args[0], TMP=get_fresh_col(), col1=str(args[1]), col2=str(args[2]))
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -285,7 +288,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
 
         _script = '{ret_df} <- {table} %>% filter(.[[{col}]] {op} {const})'.format(
                   ret_df=ret_df_name, table=args[0], op=args[1], col=str(args[2]), const=str(args[3]))
-        print("FILTER SCRIPT: {}".format(_script))
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -303,6 +306,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- separate({table}, {col1}, c("{TMP1}", "{TMP2}"))'.format(
                   ret_df=ret_df_name, table=args[0], col1=str(args[1]), TMP1=get_fresh_col(), TMP2=get_fresh_col())
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -325,6 +329,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- spread({table}, {col1}, {col2})'.format(
                   ret_df=ret_df_name, table=args[0], col1=str(args[1]), col2=str(args[2]))
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -343,6 +348,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- gather({table}, KEY, VALUE, {cols})'.format(
                    ret_df=ret_df_name, table=args[0], cols=get_collist(args[1]))
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -361,6 +367,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- gather({table}, KEY, VALUE, {cols})'.format(
                    ret_df=ret_df_name, table=args[0], cols=get_collist(args[1]))
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -370,19 +377,23 @@ class MorpheusInterpreter(PostOrderInterpreter):
 
     # NOTICE: use the scoped version: group_by_at to support column index
     def eval_group_by(self, node, args):
+
         n_cols = robjects.r('ncol(' + args[0] + ')')[0]
         self.assertArg(node, args,
                 index=1,
                 cond=lambda x: max(list(map(lambda y: int(y), x))) <= n_cols,
                 capture_indices=[0])
-        self.assertArg(node, args,
-                index=1,
-                       cond=lambda x: len(x) == 1,
-                capture_indices=[0])
+        
+        # removing this assertion for benchmark#6
+        # self.assertArg(node, args,
+        #         index=1,
+        #                cond=lambda x: len(x) == 1,
+        #         capture_indices=[0])
 
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- group_by_at({table}, {cols})'.format(
                    ret_df=ret_df_name, table=args[0], cols=get_collist(args[1]))
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -405,6 +416,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- group_by_at({table}, {cols})'.format(
                    ret_df=ret_df_name, table=args[0], cols=get_collist(args[1]))
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -423,9 +435,13 @@ class MorpheusInterpreter(PostOrderInterpreter):
                 cond=lambda x: get_type(args[0], str(x)) == 'integer' or get_type(args[0], str(x)) == 'numeric',
                 capture_indices=[0])
 
+        # get column names
+        colname = robjects.r("colnames({table})".format(table=args[0]))[args[2]-1] # -1 out of range
+
         ret_df_name = get_fresh_name()
-        _script = '{ret_df} <- {table} %>% summarise({TMP} = {aggr} (.[[{col}]]))'.format(
-                  ret_df=ret_df_name, table=args[0], TMP=get_fresh_col(), aggr=str(args[1]), col=str(args[2]))
+        _script = '{ret_df} <- {table} %>% summarise({TMP} = {aggr} (`{col}`))'.format(
+                  ret_df=ret_df_name, table=args[0], TMP=get_fresh_col(), aggr=str(args[1]), col=colname)
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -455,6 +471,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- {table} %>% mutate({TMP}=.[[{col1}]] {op} .[[{col2}]])'.format(
                   ret_df=ret_df_name, table=args[0], TMP=get_fresh_col(), op=args[1], col1=str(args[2]), col2=str(args[3]))
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -467,6 +484,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- inner_join({t1}, {t2})'.format(
                   ret_df=ret_df_name, t1=args[0], t2=args[1])
+        print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
             return ret_df_name
@@ -500,42 +518,6 @@ class MorpheusInterpreter(PostOrderInterpreter):
         content_curr = get_content(curr_df)
         return len(content_curr - content_input)
 
-class MorpheusGenerator(object):
-    _spec: S.TyrellSpec
-    _interpreter: Interpreter
-    _sfn: Callable[[Any,Any], bool]
-
-    def __init__(self,
-                 spec: S.TyrellSpec,
-                 interpreter: Interpreter,
-                 sfn: Callable[[Any,Any], bool] = lambda pr,ex:True):
-        self._interpreter = interpreter
-        self._spec = spec
-        self._sfn = sfn
-
-    def generate(self, max_depth, example, probs=(1,5)):
-        tmp_enumerator = RandomEnumeratorS(self._spec, max_depth = max_depth, probs=probs)
-        while True:
-            try:
-                tmp_prog = tmp_enumerator.next()
-                print("CAND:{}".format(tmp_prog))
-                tmp_eval = self._interpreter.eval(
-                    tmp_prog,
-                    example.input,
-                )
-            except Exception:
-                # print("EXCEPT")
-                continue
-            tmp_example = Example(input=example.input, output=[tmp_eval])
-            if self._sfn(tmp_prog, tmp_example):
-                    # print("YES")
-                    return (
-                        tmp_prog, 
-                        tmp_example
-                    )
-            else:
-                continue
-
 def init_tbl(df_name, csv_loc):
     cmd = '''
     tbl_name <- read.csv(csv_location, check.names = FALSE)
@@ -550,28 +532,42 @@ def init_tbl(df_name, csv_loc):
 
 def main():
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-bmrk','--benchmark', type=int)
+    args = parser.parse_args()
+    bmrk = args.benchmark
+    input0 = "./benchmarks/pldi17/p{}_input1.csv".format(bmrk)
+    output = "./benchmarks/pldi17/p{}_output1.csv".format(bmrk)
+    init_tbl('input0', input0)
+    #FIXME: ignore the second input table for now.
+    init_tbl('output', output)
+
     logger.info('Parsing Spec...')
     spec = S.parse_file('example/m.tyrell')
     logger.info('Parsing succeeded')
 
-    mcoder = MorpheusInterpreter()
-    minput = mcoder.random_table()
-    print("========INPUT(random)========")
-    print(robjects.r(minput))
-    generator = MorpheusGenerator(
-        spec=spec,
-        interpreter=mcoder,
-        sfn=mcoder.sanity_check,
+    logger.info('Building synthesizer...')
+    synthesizer = Synthesizer(
+        #loc: # of function productions
+        # enumerator=SmtEnumerator(spec, depth=depth_val, loc=loc_val),
+        # enumerator=RandomEnumerator(spec, max_depth=5),
+        enumerator=DesignatedEnumerator(spec, pldi17_sol.solutions[bmrk]),
+        decider=TestDecider(
+            interpreter=MorpheusInterpreter(),
+            examples=[
+                # Example(input=[DataFrame2(benchmark1_input)], output=benchmark1_output),
+                Example(input=['input0'], output='output'),
+            ],
+            equal_output=eq_r
+        )
     )
-    train_sample = generator.generate(
-        max_depth=4,
-        example=Example(input=[minput], output=[None]),
-        probs=(1,5),
-    )
-    print("========PROGRAM========")
-    print(train_sample[0])
-    print("========OUTPUT========")
-    print(robjects.r(train_sample[1].output[0]))
+    logger.info('Synthesizing programs...')
+
+    prog = synthesizer.synthesize()
+    if prog is not None:
+        logger.info('Solution found: {}'.format(prog))
+    else:
+        logger.info('Solution not found!')
 
 
 if __name__ == '__main__':

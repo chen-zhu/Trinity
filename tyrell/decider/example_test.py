@@ -52,13 +52,13 @@ class TestDecider(Decider):
         Test whether the given program would fail on any of the examples provided.
         '''
         # print(prog.to_sexp())
-        for x in self._examples:
-            print("ORIGINAL:")
-            self.interpreter.print_obj(self.interpreter.eval(prog, x.input))
-            print("CMP:")
-            self.interpreter.print_cmp(self.interpreter.eval(prog, x.input))
-            print("EQ?")
-            print(self._equal_output(self.interpreter.eval(prog, x.input), x.output))
+        # for x in self._examples:
+        #     print("ORIGINAL:")
+        #     self.interpreter.print_obj(self.interpreter.eval(prog, x.input))
+        #     print("CMP:")
+        #     self.interpreter.print_cmp(self.interpreter.eval(prog, x.input))
+        #     print("EQ?")
+        #     print(self._equal_output(self.interpreter.eval(prog, x.input), x.output))
 
         return any(
             not self._equal_output(
