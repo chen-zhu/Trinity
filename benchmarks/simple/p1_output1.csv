@@ -1,0 +1,13 @@
+"round","nam","KEY","VALUE"
+"round1","foo","var1",22.00000000
+"round2","foo","var1",11.00000000
+"round1","bar","var1",22.00000000
+"round2","bar","var1",11.00000000
+"round1","foo","var2",33.00000000
+"round2","foo","var2",44.00000000
+"round1","bar","var2",33.00000000
+"round2","bar","var2",44.00000000
+"round1","foo","val",0.169122009770945
+"round2","foo","val",0.185708264587447
+"round1","bar","val",0.124105813913047
+"round2","bar","val",0.0325823465827852
