@@ -126,7 +126,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
 
         tmp_c = []
         for i in range(len(vlist)):
-            tmp_c.append("COL{}=c(".format(i+1) + ",".join(["'{}'".format(j) if isinstance(j,str) else "{:.2f}".format(j) for j in vlist[i]]) + ")")
+            tmp_c.append("OCOL{}=c(".format(i+1) + ",".join(["'{}'".format(j) if isinstance(j,str) else "{:.2f}".format(j) for j in vlist[i]]) + ")")
 
         ref_df_name = get_fresh_name()
         mr_script = "{} <- data.frame({}, stringsAsFactors=FALSE)".format(
