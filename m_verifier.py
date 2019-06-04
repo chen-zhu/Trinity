@@ -58,8 +58,9 @@ def eq_r(actual, expect):
     _rscript = '''
     tmp1 <- sapply({lhs}, as.character)
     tmp2 <- sapply({rhs}, as.character)
-    compare(tmp1, tmp2, ignoreOrder = TRUE)
+    compare(tmp1, tmp2, ignoreOrder = TRUE, ignoreNames = TRUE)
     '''.format(lhs=actual, rhs=expect)
+    # ignoreNames:TRUE, work for benchmark 23
     # logger.info(robjects.r(actual))
     # logger.info(robjects.r(expect))
     ret_val = robjects.r(_rscript)
@@ -203,6 +204,12 @@ class MorpheusInterpreter(PostOrderInterpreter):
             # has empty string
             return False
         return True
+
+    def print_obj(self,obj):
+        print(robjects.r(obj))
+
+    def print_cmp(self,obj):
+        print(robjects.r("tmp1 <- sapply({}, as.character)".format(obj)))
 
     ## Concrete interpreter
     def eval_ColInt(self, v):
