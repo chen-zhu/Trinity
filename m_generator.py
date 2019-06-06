@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from utils_morpheus import *
+from ProgramSpace import *
 
 def main():
 
@@ -17,9 +18,8 @@ def main():
         sfn=mcoder.sanity_check,
     )
     train_sample = generator.generate(
-        max_depth=4,
+        fixed_depth=4,
         example=Example(input=[minput], output=None),
-        probs=(1,5),
     )
     print("========PROGRAM========")
     print(train_sample[0])

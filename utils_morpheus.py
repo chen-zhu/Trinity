@@ -5,7 +5,7 @@ import random
 import argparse
 from tyrell import spec as S
 from tyrell.interpreter import Interpreter, PostOrderInterpreter, GeneralError
-from tyrell.enumerator import Enumerator, SmtEnumerator, RandomEnumerator, DesignatedEnumerator, RandomEnumeratorS
+from tyrell.enumerator import Enumerator, SmtEnumerator, RandomEnumerator, DesignatedEnumerator, RandomEnumeratorS, RandomEnumeratorFD
 from tyrell.decider import Example, ExampleConstraintPruningDecider, ExampleDecider, TestDecider
 from tyrell.synthesizer import Synthesizer
 from tyrell.logger import get_logger
@@ -138,8 +138,11 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(mr_script)
             return ref_df_name
         except:
-            logger.error('Error in generating random table...')
+            # logger.error('Error in generating random table...')
             raise GeneralError()
+
+    def load_data_into_var(self, pdata, pvar):
+        robjects.r("{} <- {}".format(pvar,pdata))
 
     # Single Input, Single Output
     def sanity_check(self, p_prog, p_example):
@@ -246,7 +249,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting select...')
+            # logger.error('Error in interpreting select...')
             raise GeneralError()
 
     def eval_neg_select(self, node, args):
@@ -264,7 +267,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting select...')
+            # logger.error('Error in interpreting select...')
             raise GeneralError()
 
     def eval_unite(self, node, args):
@@ -287,7 +290,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting unite...')
+            # logger.error('Error in interpreting unite...')
             raise GeneralError()
 
     def eval_filter(self, node, args):
@@ -310,7 +313,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting filter...')
+            # logger.error('Error in interpreting filter...')
             raise GeneralError()
 
     def eval_separate(self, node, args):
@@ -328,7 +331,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting separate...')
+            # logger.error('Error in interpreting separate...')
             raise GeneralError()
 
     def eval_spread(self, node, args):
@@ -351,7 +354,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting spread...')
+            # logger.error('Error in interpreting spread...')
             raise GeneralError()
 
     def eval_gather(self, node, args):
@@ -370,7 +373,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting gather...')
+            # logger.error('Error in interpreting gather...')
             raise GeneralError()
 
     def eval_neg_gather(self, node, args):
@@ -389,7 +392,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting gather...')
+            # logger.error('Error in interpreting gather...')
             raise GeneralError()
 
     # NOTICE: use the scoped version: group_by_at to support column index
@@ -415,7 +418,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting group_by...')
+            # logger.error('Error in interpreting group_by...')
             raise GeneralError()
 
     # NOTICE: use the scoped version: group_by_at to support column index
@@ -438,7 +441,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting group_by...')
+            # logger.error('Error in interpreting group_by...')
             raise GeneralError()
 
     def eval_summarise(self, node, args):
@@ -463,7 +466,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting summarise...')
+            # logger.error('Error in interpreting summarise...')
             raise GeneralError()
 
     def eval_mutate(self, node, args):
@@ -493,7 +496,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting mutate...')
+            # logger.error('Error in interpreting mutate...')
             raise GeneralError()
 
 
@@ -506,7 +509,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             ret_val = robjects.r(_script)
             return ret_df_name
         except:
-            logger.error('Error in interpreting innerjoin...')
+            # logger.error('Error in interpreting innerjoin...')
             raise GeneralError()
 
     ## Abstract interpreter
@@ -551,8 +554,8 @@ class MorpheusGenerator(object):
         self._spec = spec
         self._sfn = sfn
 
-    def generate(self, max_depth, example, probs=(1,5)):
-        tmp_enumerator = RandomEnumeratorS(self._spec, max_depth = max_depth, probs=probs)
+    def generate(self, fixed_depth, example, probs=(1,5)):
+        tmp_enumerator = RandomEnumeratorFD(self._spec, fixed_depth = fixed_depth)
         while True:
             try:
                 tmp_prog = tmp_enumerator.next()
@@ -594,11 +597,30 @@ def morpheus_perspective1(p_obj, verbose=False):
     perspective collections for 1 object
     all YES(1)/NO(0) questions
     '''
-    np_obj = numpy.asarray(robjects.r(p_obj)).T
-    # np_obj = numpy.asarray(p_obj,dtype=numpy.object).T
-    ac = robjects.r("colnames({table})".format(table=p_obj))
-    # ac = self.r_colnames("table",p_obj)
-    dr, dc = np_obj.shape
+    try:
+        # deal with
+        # "data frame with 0 columns and 10 rows"
+        dr = robjects.r('nrow({})'.format(p_obj))[0]
+        dc = robjects.r('ncol({})'.format(p_obj))[0]
+        if dr==0 or dc==0:
+            np_obj = numpy.asarray([[]])
+            dr = 0
+            dc = 0
+        else:
+            np_obj = numpy.asarray(robjects.r(p_obj)).T
+    except Exception:
+        np_obj = numpy.asarray([[]])
+        dr = 0
+        dc = 0
+
+    # print("# dr:{}, dc:{}".format(dr,dc))
+
+    try:
+        ac = robjects.r("colnames({table})".format(table=p_obj))
+    except Exception:
+        # the same applies to this
+        # then just create an empty list of column ignoreNames
+        ac = []
 
     pcode = []
 
