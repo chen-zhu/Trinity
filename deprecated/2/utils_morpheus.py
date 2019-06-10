@@ -3,7 +3,6 @@
 import numpy
 import random
 import argparse
-from collections import defaultdict
 from tyrell import spec as S
 from tyrell.interpreter import Interpreter, PostOrderInterpreter, GeneralError
 from tyrell.enumerator import Enumerator, SmtEnumerator, RandomEnumerator, DesignatedEnumerator, RandomEnumeratorS, RandomEnumeratorFD
@@ -174,7 +173,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
                 if "NA" in p:
                     return False
             elif isinstance(p,numpy.float):
-                if numpy.isnan(p) or numpy.isinf(p):
+                if numpy.isnan(p):
                     return False
             else:
                 return False
@@ -220,30 +219,17 @@ class MorpheusInterpreter(PostOrderInterpreter):
         if True==ret_val[0]:
             return False
         # 3) no numeric NA in any cell
-        # mr_script = '''
-        #     any(apply({},1,function(x) any(is.na(x))))
         mr_script = '''
-            any(sapply({},function(x) is.na(x)))
+            any(apply({},1,function(x) any(is.na(x))))
         '''.format(p_example.output)
         ret_val = robjects.r(mr_script)
         if True==ret_val[0]:
             # has <NA> or empty string
             return False
-
-        # 3.1) no infinity in any cell
-        # mr_script = '''
-        #     any(apply({},1,function(x) any(is.infinite(x))))
-        mr_script = '''
-            any(sapply({},function(x) is.infinite(x)))
-        '''.format(p_example.output)
-        ret_val = robjects.r(mr_script)
-        if True==ret_val[0]:
-            # has infinity or empty string
-            return False
-
+        # print("SANITY:{}".format(ret_val[0]))
         # 4) no empty string in any cell, require: no <NA> first
         mr_script = '''
-            any(sapply({},function(x) x==''))
+            any(apply({},1,function(x) any(x=='')))
         '''.format(p_example.output)
         ret_val = robjects.r(mr_script)
         if True==ret_val[0]:
@@ -251,7 +237,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
             return False
         # 5) no NA as substring in any cell
         mr_script = '''
-            any(sapply({},function(x) grepl("NA",x)))
+            any(apply({},1,function(x) any(grepl("NA",x))))
         '''.format(p_example.output)
         ret_val = robjects.r(mr_script)
         if True==ret_val[0]:
@@ -261,7 +247,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
         # This is to prevent gather->spread pattern that
         # compares COL value in cell
         mr_script = '''
-            any(sapply({},function(x) grepl("COL",x)))
+            any(apply({},1,function(x) any(grepl("COL",x))))
         '''.format(p_example.output)
         ret_val = robjects.r(mr_script)
         if True==ret_val[0]:
@@ -641,32 +627,22 @@ def init_tbl(df_name, csv_loc):
     return None
 
 '''
-collect abstraction vector (col/row wise) and abstraction map (cell) for a given table
+collect 1d meta information into feature vector
 '''
-def morpheus_abstraction(p_obj, verbose=False):
+def morpheus_perspective1(p_obj, verbose=False):
     '''
-    string hashing function hash(s)= ( g(s[0])*5+g(s[-1])+1 ) / 25.
-    Notice: to lower first
+    perspective collections for 1 object
+    all YES(1)/NO(0) questions
     '''
-    def hash_string(s):
-        hash_gp = ["","abcde","fghij","klmno","pqrst","uvwxyz","0123456789"]
-        hash_dt = {
-            hash_gp[i][j]:i for i in range(5) for j in range(len(hash_gp[i]))
-        }
-        ls = s.lower()
-        hash_val = hash_dt.setdefault(ls[0],0)*7 + hash_dt.setdefault(ls[-1],0)
-        return round( float(hash_val + 1)/49., 4)
+    def get_one_hot(p_len, p_idx, p_val):
+        '''
+        generate one-hot representation with given position being set to given value
+        others 0
+        '''
+        ret = [0 for _ in range(p_len)]
+        ret[p_idx] = p_val
+        return ret
 
-    '''
-    float hashing function hash(x)= ( dLeft(x)*10+dRight+1 ) / 100.
-    '''
-    def hash_float(x):
-        dRight = int(x*10)-int(x)*10
-        dLeft = int(x)-int(x/10)*10
-        hash_val = abs( dLeft*10 + dRight )
-        return round( float(hash_val + 1)/100., 4)
-
-    # get the table in numpy format
     try:
         # deal with
         # "data frame with 0 columns and 10 rows"
@@ -683,162 +659,112 @@ def morpheus_abstraction(p_obj, verbose=False):
         dr = 0
         dc = 0
 
-    # abstraction settings
-    abs_setting = {
-        "MAX_ROW": 15,
-        "MAX_COL": 15,
+    # print("# dr:{}, dc:{}".format(dr,dc))
+
+    try:
+        ac = robjects.r("colnames({table})".format(table=p_obj))
+    except Exception:
+        # the same applies to this
+        # then just create an empty list of column ignoreNames
+        ac = []
+
+    pcode = {
+        "shape_r": None,
+        "shape_c": None,
+        "und": None,
+        "val_ratio": None,
+        "str_ratio": None,
+        "num_ratio": None,
+        "rnd_dec": None,
     }
 
-    # the generated code to return
-    abs_code = {
-        "existence_row": None,
-        "existence_col": None,
-        "type_string_col": None,
-        "type_float_col": None,
-        "type_int_col": None,
-        "categorical_col": None,
-        "separator_col": None,
-        "string_hashing_cell": None,
-        "float_hashing_cell": None,
-    }
+    # #################################
+    # shape information
+    # set 1 on 0
+    # dim: 2 x 15 = 30
+    # #################################
+    pcode["shape_r"] = [1 if k==dr else 0 for k in range(15)]
+    pcode["shape_c"] = [1 if k==dc else 0 for k in range(15)]
 
-
-    # 1) existence indicator (row/col wise)
-    # 1: Yes
-    # 0: No
-    tmp_code = [1 if i<dr else 0 for i in range(abs_setting["MAX_ROW"])]
-    abs_code["existence_row"] = tmp_code
-    tmp_code = [1 if i<dc else 0 for i in range(abs_setting["MAX_COL"])]
-    abs_code["existence_col"] = tmp_code
-
-    # 2) string type indicator
-    # 1: Yes (string)
-    # 0: No (numeric or not applicable)
-    tmp_code = [0 for _ in range(abs_setting["MAX_COL"])]
-    for i in range(dc):
-        # assume: every col shares a type
-        if isinstance(np_obj[0,i],numpy.str):
-            tmp_code[i] = 1
-    abs_code["type_string_col"] = tmp_code
-
-    # 3.1) float type indicator
-    # 1: Yes (float)
-    # 0: No (integer/string or not applicable)
-    tmp_code = [0 for _ in range(abs_setting["MAX_COL"])]
-    for i in range(dc):
-        # assume every col shares a type
-        if isinstance(np_obj[0,i],numpy.float):
-            # try to determine equality to integer
-            if int(np_obj[0,i])!=np_obj[0,i]:
-                tmp_code[i] = 1
-    abs_code["type_float_col"] = tmp_code
-
-    # 3.2) integer type indicator
-    # 1: Yes (integer)
-    # 0: No (float/string or not applicable)
-    tmp_code = [0 for _ in range(abs_setting["MAX_COL"])]
-    for i in range(dc):
-        # assume every col shares a type
-        if isinstance(np_obj[0,i],numpy.float):
-            # try to determine equality to integer
-            if int(np_obj[0,i])==np_obj[0,i]:
-                tmp_code[i] = 1
-    abs_code["type_int_col"] = tmp_code
-
-    # 4) categorical indicator
-    # 1: Yes (categorical value)
-    # 2: No (just value or not applicable)
-    # if a specific value appears twice in the same column, then yes
-    tmp_code = [0 for _ in range(abs_setting["MAX_COL"])]
-    for i in range(dc):
-        tmp_set = set()
+    # #################################
+    # <underscore> information
+    # set 1 on 0
+    # -1: unavailable
+    # dim: 15
+    # #################################
+    pcode["und"] = [0 if k<dc else -1 for k in range(15)]
+    for i in range(min(dc,15)):
         for j in range(dr):
-            if np_obj[j,i] in tmp_set:
-                tmp_code[i] = 1
-                break
-            else:
-                tmp_set.add(np_obj[j,i])
-    abs_code["categorical_col"] = tmp_code
-
-    # 5) separator indicator
-    # 1: Yes
-    # 0: No
-    # default separator: "_", should all cell in the same column contain it
-    tmp_code = [0 for _ in range(abs_setting["MAX_COL"])]
-    for i in range(dc):
-        if isinstance(np_obj[0,i],numpy.str):
-            tmp_is_sep = True
-            for j in range(dr):
-                tmp_sp = np_obj[j,i].split("_")
-                if len(tmp_sp)<=1:
-                    # fail
-                    tmp_is_sep = False
+            if isinstance(np_obj[j,i],str):
+                if "_" in np_obj[j,i]:
+                    pcode["und"][i] = 1
                     break
-            if tmp_is_sep:
-                tmp_code[i] = 1
-            # else: do nothing, remain 0
-        else:
-            # not applicable
-            continue
-    abs_code["separator_col"] = tmp_code
 
-    # 6) string hashing
-    tmp_code = numpy.zeros((abs_setting["MAX_ROW"],abs_setting["MAX_COL"]))
-    for i in range(dr):
-        for j in range(dc):
-            if isinstance(np_obj[i,j],numpy.str):
-                tmp_code[i,j] = hash_string(np_obj[i,j])
-    abs_code["string_hashing_cell"] = tmp_code
+    # #################################
+    # value counter information
+    # how many different values are there in the cells
+    # n/MAX_VAL_COUNT
+    # dim: 1
+    # #################################
+    MAX_VAL_COUNT = 100.
+    tmp_vals = set()
+    for p in np_obj.flatten():
+        if isinstance(p, str):
+            tmp_vals.add(p)
+        if isinstance(p, numpy.float) and (not numpy.isnan(p)):
+            tmp_vals.add(p)
+    pcode["val_ratio"] = [float(len(tmp_vals))/MAX_VAL_COUNT]
 
-    # 7) float hashing
-    tmp_code = numpy.zeros((abs_setting["MAX_ROW"],abs_setting["MAX_COL"]))
-    for i in range(dr):
-        for j in range(dc):
-            if isinstance(np_obj[i,j],numpy.float):
-                tmp_code[i,j] = hash_float(np_obj[i,j])
-    abs_code["float_hashing_cell"] = tmp_code
+    # #################################
+    # string counter information
+    # how many different strings are there in the cells
+    # n/MAX_STR_COUNT
+    # dim: 1
+    # #################################
+    MAX_STR_COUNT = 100.
+    tmp_strs = set()
+    for p in np_obj.flatten():
+        if isinstance(p, str):
+            tmp_strs.add(p)
+    pcode["str_ratio"] = [float(len(tmp_strs))/MAX_STR_COUNT]
+
+    # #################################
+    # numeric counter information
+    # how many different numbers are there in the cells
+    # n/MAX_NUM_COUNT
+    # dim: 1
+    # #################################
+    MAX_NUM_COUNT = 100.
+    tmp_nums = set()
+    for p in np_obj.flatten():
+        if isinstance(p, numpy.float) and (not numpy.isnan(p)):
+            tmp_nums.add(p)
+    pcode["num_ratio"] = [float(len(tmp_nums))/MAX_NUM_COUNT]
+
+    # #################################
+    # rnd_dec information
+    # does the current column contains numbers with "irrational-like" decimal part
+    # dim: 15
+    # #################################
+    pcode["rnd_dec"] = [0 if k<dc else -1 for k in range(15)]
+    for i in range(min(dc,15)):
+        for j in range(dr):
+            if isinstance(np_obj[j,i],numpy.float) and (not numpy.isnan(np_obj[j,i])):
+                tmp_str = str(np_obj[j,i])
+                _ts = tmp_str.split(".")
+                if len(_ts)>1:
+                    _sts = set(_ts[-1])
+                    if "0" in _sts and len(_sts)==1:
+                        continue
+                    elif len(_ts[-1])>3:
+                        pcode["rnd_dec"][i] = 1
 
     if verbose:
-        for dkey in abs_code:
-            print("{}: {}".format(dkey,abs_code[dkey]))
+        for dkey in pcode.keys():
+            print("{}:{}".format(dkey, pcode[dkey]))
 
-    final_abs_code = []
-    for dkey in abs_code:
-        if isinstance(abs_code[dkey],numpy.ndarray):
-            final_abs_code += abs_code[dkey].flatten().tolist()
-        else:
-            final_abs_code += abs_code[dkey]
-
-    return final_abs_code
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    ret_code = []
+    for dkey in pcode.keys():
+        ret_code += pcode[dkey]
+    return ret_code
 

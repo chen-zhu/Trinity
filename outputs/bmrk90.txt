@@ -1,0 +1,7000 @@
+# Rank: 0
+# Score: -8.950637817382812
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+
+# Rank: 1
+# Score: -9.065049171447754
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 2
+# Score: -9.146005630493164
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 3
+# Score: -9.146740436553955
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 4
+# Score: -9.65662431716919
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 5
+# Score: -9.671341180801392
+# Solved: False
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 6
+# Score: -9.819697380065918
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 7
+# Score: -9.934947490692139
+# Solved: False
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+
+# Rank: 8
+# Score: -9.956275463104248
+# Solved: False
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 9
+# Score: -9.996490478515625
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 10
+# Score: -10.03890585899353
+# Solved: False
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 11
+# Score: -10.093710899353027
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 12
+# Score: -10.096366882324219
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 13
+# Score: -10.105562686920166
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 14
+# Score: -10.167567253112793
+# Solved: False
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+
+# Rank: 15
+# Score: -10.173513412475586
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  spread(@param0, 1, 2)
+
+# Rank: 16
+# Score: -10.253654479980469
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 17
+# Score: -10.269147872924805
+# Solved: False
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 18
+# Score: -10.319528579711914
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 19
+# Score: -10.348880290985107
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 20
+# Score: -10.36612319946289
+# Solved: False
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+  spread(@param0, 1, 2)
+
+# Rank: 21
+# Score: -10.39600133895874
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+
+# Rank: 22
+# Score: -10.443559169769287
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+
+# Rank: 23
+# Score: -10.458930492401123
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+
+# Rank: 24
+# Score: -10.475705623626709
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+
+# Rank: 25
+# Score: -10.483243942260742
+# Solved: False
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+
+# Rank: 26
+# Score: -10.560189723968506
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 27
+# Score: -10.573920726776123
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, >, 3, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 28
+# Score: -10.574307918548584
+# Solved: False
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+
+# Rank: 29
+# Score: -10.670448303222656
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+
+# Rank: 30
+# Score: -10.697739362716675
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 31
+# Score: -10.699092626571655
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 32
+# Score: -10.775635242462158
+# Solved: False
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+  neg_select(@param0, ['-1'])
+
+# Rank: 33
+# Score: -10.776644468307495
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 34
+# Score: -10.779400825500488
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 35
+# Score: -10.789407730102539
+# Solved: False
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+
+# Rank: 36
+# Score: -10.80266809463501
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 37
+# Score: -10.805028915405273
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 38
+# Score: -10.812066555023193
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 39
+# Score: -10.82445216178894
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 40
+# Score: -10.830195426940918
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 41
+# Score: -10.836172580718994
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 42
+# Score: -10.85012674331665
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 43
+# Score: -10.852002143859863
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 44
+# Score: -10.85797929763794
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 45
+# Score: -10.859105110168457
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 46
+# Score: -10.86506462097168
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 4, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 47
+# Score: -10.874892234802246
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 48
+# Score: -10.880435943603516
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 4, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 49
+# Score: -10.882372379302979
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 50
+# Score: -10.884733200073242
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 51
+# Score: -10.891770839691162
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 4, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 52
+# Score: -10.911038398742676
+# Solved: False
+  separate(@param0, 3)
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+
+# Rank: 53
+# Score: -10.940661668777466
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 54
+# Score: -10.965359449386597
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 5)
+  spread(@param0, 1, 2)
+
+# Rank: 55
+# Score: -10.988470554351807
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 56
+# Score: -10.99700117111206
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 5)
+  spread(@param0, 1, 2)
+
+# Rank: 57
+# Score: -10.998680114746094
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, <, 1, 0)
+  spread(@param0, 1, 2)
+
+# Rank: 58
+# Score: -11.03354787826538
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 59
+# Score: -11.058313369750977
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 60
+# Score: -11.068174839019775
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 61
+# Score: -11.07670545578003
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 5)
+  spread(@param0, 1, 2)
+
+# Rank: 62
+# Score: -11.085480690002441
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 3, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 63
+# Score: -11.086209058761597
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 64
+# Score: -11.094634056091309
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 4, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 65
+# Score: -11.097533702850342
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 66
+# Score: -11.102946281433105
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 1, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 67
+# Score: -11.107990741729736
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 2, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 68
+# Score: -11.138758897781372
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 69
+# Score: -11.17723798751831
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 70
+# Score: -11.185962438583374
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 71
+# Score: -11.20133376121521
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 72
+# Score: -11.21846318244934
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 73
+# Score: -11.257771730422974
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 74
+# Score: -11.281877756118774
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 75
+# Score: -11.287068367004395
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  spread(@param0, 1, 2)
+
+# Rank: 76
+# Score: -11.28914737701416
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 1, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 77
+# Score: -11.30933952331543
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 3, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 78
+# Score: -11.326805114746094
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 1, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 79
+# Score: -11.338482856750488
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 4, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 80
+# Score: -11.348580837249756
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 2, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 81
+# Score: -11.361582040786743
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 82
+# Score: -11.366772651672363
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  spread(@param0, 1, 2)
+
+# Rank: 83
+# Score: -11.367662906646729
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  spread(@param0, 1, 2)
+
+# Rank: 84
+# Score: -11.4233717918396
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-4'])
+  spread(@param0, 1, 2)
+
+# Rank: 85
+# Score: -11.444541454315186
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 2, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 86
+# Score: -11.447367191314697
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-2'])
+  spread(@param0, 1, 2)
+
+# Rank: 87
+# Score: -11.4821138381958
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 88
+# Score: -11.48421049118042
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 2, 1)
+
+# Rank: 89
+# Score: -11.493441104888916
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 1, 1)
+
+# Rank: 90
+# Score: -11.498723983764648
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+
+# Rank: 91
+# Score: -11.503076076507568
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-4'])
+  spread(@param0, 1, 2)
+
+# Rank: 92
+# Score: -11.507667064666748
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  separate(@param0, 1)
+
+# Rank: 93
+# Score: -11.519756078720093
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 94
+# Score: -11.52973747253418
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 1, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 95
+# Score: -11.5460045337677
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 5, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 96
+# Score: -11.559332847595215
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+
+# Rank: 97
+# Score: -11.567225456237793
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 4, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 98
+# Score: -11.571183204650879
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  separate(@param0, 1)
+
+# Rank: 99
+# Score: -11.588623523712158
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  separate(@param0, 1)
+
+# Rank: 100
+# Score: -11.600712537765503
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 101
+# Score: -11.609949588775635
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 102
+# Score: -11.638667583465576
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+
+# Rank: 103
+# Score: -11.671690464019775
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 2, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 104
+# Score: -11.6754150390625
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 1, 5)
+
+# Rank: 105
+# Score: -11.724063158035278
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 106
+# Score: -11.744307041168213
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+
+# Rank: 107
+# Score: -11.746394157409668
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 108
+# Score: -11.75182032585144
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 109
+# Score: -11.75563359260559
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 110
+# Score: -11.756566524505615
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  unite(@param0, 1, 3)
+
+# Rank: 111
+# Score: -11.758427619934082
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 112
+# Score: -11.77376937866211
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 113
+# Score: -11.782901763916016
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+
+# Rank: 114
+# Score: -11.789140701293945
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 115
+# Score: -11.803767442703247
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 116
+# Score: -11.807870388031006
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 117
+# Score: -11.809733867645264
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 118
+# Score: -11.8125581741333
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 5, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 119
+# Score: -11.823241710662842
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 120
+# Score: -11.831602096557617
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+
+# Rank: 121
+# Score: -11.833030700683594
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 122
+# Score: -11.834118366241455
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 123
+# Score: -11.83533787727356
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 124
+# Score: -11.836541175842285
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  unite(@param0, 2, 1)
+
+# Rank: 125
+# Score: -11.838810443878174
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  unite(@param0, 2, 1)
+
+# Rank: 126
+# Score: -11.852520942687988
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  unite(@param0, 1, 3)
+
+# Rank: 127
+# Score: -11.863577365875244
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+
+# Rank: 128
+# Score: -11.867424488067627
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  unite(@param0, 3, 1)
+
+# Rank: 129
+# Score: -11.868367195129395
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 1, 3)
+
+# Rank: 130
+# Score: -11.871019840240479
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 131
+# Score: -11.873108863830566
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+
+# Rank: 132
+# Score: -11.878289222717285
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 133
+# Score: -11.889313220977783
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  unite(@param0, 3, 1)
+
+# Rank: 134
+# Score: -11.890690326690674
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 135
+# Score: -11.911654233932495
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 136
+# Score: -11.914093017578125
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 137
+# Score: -11.918103218078613
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 138
+# Score: -11.939656972885132
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 139
+# Score: -11.944976329803467
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 140
+# Score: -11.951368570327759
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+
+# Rank: 141
+# Score: -11.958314895629883
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 142
+# Score: -11.964311599731445
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 1, 2)
+
+# Rank: 143
+# Score: -11.965378761291504
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 3)
+
+# Rank: 144
+# Score: -11.97480821609497
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 2, 1)
+
+# Rank: 145
+# Score: -11.99029016494751
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 146
+# Score: -11.991683959960938
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 147
+# Score: -11.99595046043396
+# Solved: False
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 148
+# Score: -11.998135566711426
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  unite(@param0, 1, 3)
+
+# Rank: 149
+# Score: -12.002598762512207
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 150
+# Score: -12.004804134368896
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 3, 1)
+
+# Rank: 151
+# Score: -12.007055282592773
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 152
+# Score: -12.0193612575531
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 153
+# Score: -12.036695957183838
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 154
+# Score: -12.0423264503479
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  unite(@param0, 1, 5)
+
+# Rank: 155
+# Score: -12.043002367019653
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 156
+# Score: -12.044942617416382
+# Solved: False
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 157
+# Score: -12.050929307937622
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 2)
+
+# Rank: 158
+# Score: -12.052209854125977
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  unite(@param0, 1, 5)
+
+# Rank: 159
+# Score: -12.078110218048096
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  unite(@param0, 2, 1)
+
+# Rank: 160
+# Score: -12.081776142120361
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+
+# Rank: 161
+# Score: -12.083525896072388
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 162
+# Score: -12.083693027496338
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  unite(@param0, 3, 2)
+
+# Rank: 163
+# Score: -12.085398197174072
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 164
+# Score: -12.08864450454712
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  unite(@param0, 2, 3)
+
+# Rank: 165
+# Score: -12.089981317520142
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 166
+# Score: -12.092558860778809
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 2, 3)
+
+# Rank: 167
+# Score: -12.094922542572021
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 168
+# Score: -12.095586776733398
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 169
+# Score: -12.096557140350342
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  unite(@param0, 1, 2)
+
+# Rank: 170
+# Score: -12.097076892852783
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 4, 1)
+
+# Rank: 171
+# Score: -12.099516868591309
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 2)
+
+# Rank: 172
+# Score: -12.099982738494873
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 173
+# Score: -12.100111484527588
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  unite(@param0, 3, 2)
+
+# Rank: 174
+# Score: -12.10308837890625
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  unite(@param0, 1, 2)
+
+# Rank: 175
+# Score: -12.108993530273438
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  unite(@param0, 3, 1)
+
+# Rank: 176
+# Score: -12.110958099365234
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 177
+# Score: -12.112442016601562
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  unite(@param0, 4, 1)
+
+# Rank: 178
+# Score: -12.114441633224487
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+
+# Rank: 179
+# Score: -12.114888191223145
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 2)
+
+# Rank: 180
+# Score: -12.121019124984741
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 181
+# Score: -12.121858596801758
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  unite(@param0, 4, 1)
+
+# Rank: 182
+# Score: -12.122706651687622
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 183
+# Score: -12.128157615661621
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 3, 2)
+
+# Rank: 184
+# Score: -12.1287682056427
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 185
+# Score: -12.129761695861816
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 186
+# Score: -12.13063359260559
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 2)
+
+# Rank: 187
+# Score: -12.130759239196777
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_select(@param0, ['-4'])
+  spread(@param0, 1, 2)
+
+# Rank: 188
+# Score: -12.13472604751587
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 189
+# Score: -12.14035153388977
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 190
+# Score: -12.140844821929932
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 191
+# Score: -12.144117593765259
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 192
+# Score: -12.145063400268555
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 193
+# Score: -12.14757776260376
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  unite(@param0, 1, 2)
+
+# Rank: 194
+# Score: -12.149268627166748
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 195
+# Score: -12.149838924407959
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  mutate(@param0, /, 2, 1)
+
+# Rank: 196
+# Score: -12.150097370147705
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 197
+# Score: -12.154800176620483
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, >, 3, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 198
+# Score: -12.156216144561768
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 199
+# Score: -12.163230180740356
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 200
+# Score: -12.166196346282959
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 201
+# Score: -12.169039249420166
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 202
+# Score: -12.16968560218811
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 203
+# Score: -12.172474384307861
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 204
+# Score: -12.177663326263428
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  unite(@param0, 3, 2)
+
+# Rank: 205
+# Score: -12.177967548370361
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 206
+# Score: -12.17850923538208
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 207
+# Score: -12.18064022064209
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 208
+# Score: -12.19208812713623
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 209
+# Score: -12.193338871002197
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 210
+# Score: -12.196235179901123
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 4, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 211
+# Score: -12.197379112243652
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 212
+# Score: -12.199410438537598
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  unite(@param0, 4, 1)
+
+# Rank: 213
+# Score: -12.200602054595947
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 214
+# Score: -12.20072340965271
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 215
+# Score: -12.207459449768066
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 216
+# Score: -12.208472490310669
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 217
+# Score: -12.208488941192627
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 218
+# Score: -12.209131240844727
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 2)
+
+# Rank: 219
+# Score: -12.210405826568604
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  unite(@param0, 3, 2)
+
+# Rank: 220
+# Score: -12.212110996246338
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 221
+# Score: -12.212750434875488
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 222
+# Score: -12.218805313110352
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 4, 6)
+  spread(@param0, 1, 2)
+
+# Rank: 223
+# Score: -12.218947887420654
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 1, 2)
+
+# Rank: 224
+# Score: -12.22005581855774
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 225
+# Score: -12.223269939422607
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 226
+# Score: -12.223821878433228
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 227
+# Score: -12.223966360092163
+# Solved: False
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 228
+# Score: -12.225853443145752
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 1, 4)
+
+# Rank: 229
+# Score: -12.230493545532227
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  separate(@param0, 2)
+
+# Rank: 230
+# Score: -12.23296570777893
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 3)
+
+# Rank: 231
+# Score: -12.236480236053467
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  unite(@param0, 1, 4)
+
+# Rank: 232
+# Score: -12.23654055595398
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 233
+# Score: -12.239154815673828
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  unite(@param0, 4, 1)
+
+# Rank: 234
+# Score: -12.241615295410156
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 235
+# Score: -12.247793197631836
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  unite(@param0, 1, 4)
+
+# Rank: 236
+# Score: -12.249469757080078
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 237
+# Score: -12.250134468078613
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 238
+# Score: -12.254892110824585
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+
+# Rank: 239
+# Score: -12.261991024017334
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  mutate(@param0, /, 1, 1)
+
+# Rank: 240
+# Score: -12.266934394836426
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 4, 1)
+
+# Rank: 241
+# Score: -12.270019769668579
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+
+# Rank: 242
+# Score: -12.27321743965149
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  filter(@param0, >, 3, 4)
+
+# Rank: 243
+# Score: -12.281244039535522
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 4, 1)
+
+# Rank: 244
+# Score: -12.281320095062256
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 245
+# Score: -12.281558513641357
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 246
+# Score: -12.28188180923462
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 3, 2)
+
+# Rank: 247
+# Score: -12.285532712936401
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 248
+# Score: -12.287069082260132
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_select(@param0, ['-1'])
+  spread(@param0, 1, 2)
+
+# Rank: 249
+# Score: -12.292969465255737
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 250
+# Score: -12.293778896331787
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 251
+# Score: -12.296701908111572
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  unite(@param0, 2, 3)
+
+# Rank: 252
+# Score: -12.297826766967773
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  separate(@param0, 2)
+
+# Rank: 253
+# Score: -12.29850959777832
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 4, 6)
+  spread(@param0, 1, 2)
+
+# Rank: 254
+# Score: -12.301353931427002
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+
+# Rank: 255
+# Score: -12.305037021636963
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 256
+# Score: -12.307148456573486
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  mutate(@param0, /, 1, 2)
+
+# Rank: 257
+# Score: -12.308340787887573
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 258
+# Score: -12.31024956703186
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 259
+# Score: -12.311450004577637
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  separate(@param0, 2)
+
+# Rank: 260
+# Score: -12.3126699924469
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 3)
+
+# Rank: 261
+# Score: -12.315743923187256
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 262
+# Score: -12.318933248519897
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  unite(@param0, 1, 2)
+
+# Rank: 263
+# Score: -12.324262619018555
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  filter(@param0, >, 3, 4)
+
+# Rank: 264
+# Score: -12.324938774108887
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 5, 1)
+
+# Rank: 265
+# Score: -12.325345039367676
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  unite(@param0, 1, 4)
+
+# Rank: 266
+# Score: -12.326154470443726
+# Solved: False
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 2)
+
+# Rank: 267
+# Score: -12.329561710357666
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  unite(@param0, 3, 2)
+
+# Rank: 268
+# Score: -12.33021354675293
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  unite(@param0, 2, 3)
+
+# Rank: 269
+# Score: -12.331090927124023
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 270
+# Score: -12.333516836166382
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 271
+# Score: -12.334216117858887
+# Solved: False
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+  unite(@param0, 4, 1)
+
+# Rank: 272
+# Score: -12.336381912231445
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 273
+# Score: -12.336491584777832
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  filter(@param0, <, 1, 0)
+
+# Rank: 274
+# Score: -12.33731460571289
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 5, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 275
+# Score: -12.33963394165039
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  filter(@param0, >, 3, 4)
+
+# Rank: 276
+# Score: -12.341137170791626
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 277
+# Score: -12.341680526733398
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  unite(@param0, 3, 2)
+
+# Rank: 278
+# Score: -12.341948747634888
+# Solved: False
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 279
+# Score: -12.34465742111206
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  unite(@param0, 1, 2)
+
+# Rank: 280
+# Score: -12.347383975982666
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 2, 6)
+  spread(@param0, 1, 2)
+
+# Rank: 281
+# Score: -12.349587440490723
+# Solved: False
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+  unite(@param0, 4, 1)
+
+# Rank: 282
+# Score: -12.35111117362976
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 283
+# Score: -12.351201057434082
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 284
+# Score: -12.352790832519531
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+  separate(@param0, 1)
+
+# Rank: 285
+# Score: -12.352921724319458
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  filter(@param0, >, 3, 4)
+
+# Rank: 286
+# Score: -12.360948324203491
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 4, 1)
+
+# Rank: 287
+# Score: -12.361932277679443
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 1)
+  filter(@param0, >, 3, 4)
+
+# Rank: 288
+# Score: -12.363193035125732
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  unite(@param0, 1, 4)
+
+# Rank: 289
+# Score: -12.363427639007568
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  unite(@param0, 4, 1)
+
+# Rank: 290
+# Score: -12.374362230300903
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 291
+# Score: -12.375519752502441
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  filter(@param0, >, 3, 4)
+
+# Rank: 292
+# Score: -12.376642942428589
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 293
+# Score: -12.380012512207031
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 3)
+
+# Rank: 294
+# Score: -12.382874250411987
+# Solved: False
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 295
+# Score: -12.384485006332397
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 296
+# Score: -12.389953851699829
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 297
+# Score: -12.3929123878479
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 1, 4)
+
+# Rank: 298
+# Score: -12.395078182220459
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 299
+# Score: -12.398439168930054
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 300
+# Score: -12.398449659347534
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 301
+# Score: -12.400306940078735
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 1)
+
+# Rank: 302
+# Score: -12.406291723251343
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 303
+# Score: -12.406959295272827
+# Solved: False
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 304
+# Score: -12.41224479675293
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, >, 3, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 305
+# Score: -12.41322112083435
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 306
+# Score: -12.414947986602783
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 4)
+
+# Rank: 307
+# Score: -12.416898965835571
+# Solved: False
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 308
+# Score: -12.417965173721313
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+
+# Rank: 309
+# Score: -12.420841455459595
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 310
+# Score: -12.421339750289917
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 311
+# Score: -12.422522068023682
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 312
+# Score: -12.427088260650635
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 2, 6)
+  spread(@param0, 1, 2)
+
+# Rank: 313
+# Score: -12.43081545829773
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 314
+# Score: -12.43090534210205
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 315
+# Score: -12.433092832565308
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+
+# Rank: 316
+# Score: -12.435504674911499
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 317
+# Score: -12.4423246383667
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  neg_select(@param0, ['-4'])
+
+# Rank: 318
+# Score: -12.450875997543335
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 319
+# Score: -12.453071594238281
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  filter(@param0, >, 3, 4)
+
+# Rank: 320
+# Score: -12.454066514968872
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 321
+# Score: -12.45688796043396
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 322
+# Score: -12.460968971252441
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 323
+# Score: -12.463062047958374
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 324
+# Score: -12.464556455612183
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 325
+# Score: -12.465188980102539
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 1, 1)
+
+# Rank: 326
+# Score: -12.468998908996582
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 327
+# Score: -12.47361707687378
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  filter(@param0, >, 4, 6)
+
+# Rank: 328
+# Score: -12.473944902420044
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 329
+# Score: -12.474912643432617
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 330
+# Score: -12.477709770202637
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  filter(@param0, >, 4, 6)
+
+# Rank: 331
+# Score: -12.47843337059021
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 332
+# Score: -12.480155229568481
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 333
+# Score: -12.482006311416626
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+
+# Rank: 334
+# Score: -12.48270034790039
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 5, 1)
+
+# Rank: 335
+# Score: -12.484210729598999
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 336
+# Score: -12.48667860031128
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, <, 3, 1)
+
+# Rank: 337
+# Score: -12.487124919891357
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 338
+# Score: -12.488645076751709
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 2)
+  filter(@param0, >, 3, 4)
+
+# Rank: 339
+# Score: -12.488712310791016
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  neg_select(@param0, ['-1'])
+
+# Rank: 340
+# Score: -12.489362239837646
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  unite(@param0, 1, 4)
+
+# Rank: 341
+# Score: -12.490860939025879
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  filter(@param0, >, 3, 4)
+
+# Rank: 342
+# Score: -12.491593837738037
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 343
+# Score: -12.495904445648193
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 4)
+
+# Rank: 344
+# Score: -12.502670764923096
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 345
+# Score: -12.503228664398193
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+
+# Rank: 346
+# Score: -12.503229141235352
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 4)
+
+# Rank: 347
+# Score: -12.504500389099121
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 1, 5)
+
+# Rank: 348
+# Score: -12.513222694396973
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  filter(@param0, >, 3, 3)
+
+# Rank: 349
+# Score: -12.515044212341309
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 350
+# Score: -12.517481088638306
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 351
+# Score: -12.52033543586731
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 352
+# Score: -12.522909879684448
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 5)
+  filter(@param0, <, 1, 0)
+
+# Rank: 353
+# Score: -12.524477481842041
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 354
+# Score: -12.525805473327637
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  neg_select(@param0, ['-4'])
+
+# Rank: 355
+# Score: -12.526364088058472
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+
+# Rank: 356
+# Score: -12.534289598464966
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 357
+# Score: -12.534552812576294
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 358
+# Score: -12.534642696380615
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 359
+# Score: -12.53464651107788
+# Solved: False
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 4, 1)
+
+# Rank: 360
+# Score: -12.535983085632324
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  neg_select(@param0, ['-2'])
+
+# Rank: 361
+# Score: -12.53651237487793
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 362
+# Score: -12.536592245101929
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 363
+# Score: -12.537779092788696
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 4, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 364
+# Score: -12.542142152786255
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 365
+# Score: -12.54326057434082
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 1, 1)
+
+# Rank: 366
+# Score: -12.544329404830933
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 5)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 367
+# Score: -12.54614543914795
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 1, 1)
+
+# Rank: 368
+# Score: -12.547367572784424
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 369
+# Score: -12.548398733139038
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 370
+# Score: -12.548873901367188
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+
+# Rank: 371
+# Score: -12.549175262451172
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 372
+# Score: -12.55116891860962
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  filter(@param0, >, 4, 6)
+
+# Rank: 373
+# Score: -12.553150415420532
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 4, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 374
+# Score: -12.553649187088013
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 2)
+  spread(@param0, 1, 2)
+
+# Rank: 375
+# Score: -12.55791449546814
+# Solved: False
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+  filter(@param0, >, 3, 4)
+
+# Rank: 376
+# Score: -12.55985951423645
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 377
+# Score: -12.563915014266968
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 378
+# Score: -12.564245223999023
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+
+# Rank: 379
+# Score: -12.564676761627197
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  filter(@param0, >, 2, 6)
+
+# Rank: 380
+# Score: -12.565493822097778
+# Solved: False
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 4, 1)
+
+# Rank: 381
+# Score: -12.566264152526855
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  neg_select(@param0, ['-1'])
+
+# Rank: 382
+# Score: -12.566744565963745
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 2)
+
+# Rank: 383
+# Score: -12.56763505935669
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, <, 3, 1)
+
+# Rank: 384
+# Score: -12.57087254524231
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+
+# Rank: 385
+# Score: -12.571298122406006
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 4, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 386
+# Score: -12.57616901397705
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 387
+# Score: -12.576885223388672
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 5)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 388
+# Score: -12.581860303878784
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 389
+# Score: -12.582538843154907
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 390
+# Score: -12.582932949066162
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+
+# Rank: 391
+# Score: -12.58351755142212
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, <, 3, 1)
+
+# Rank: 392
+# Score: -12.584527730941772
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 393
+# Score: -12.585456848144531
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 1, 5)
+
+# Rank: 394
+# Score: -12.586243867874146
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+
+# Rank: 395
+# Score: -12.590774536132812
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  filter(@param0, >, 3, 3)
+
+# Rank: 396
+# Score: -12.59242296218872
+# Solved: False
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 1, 5)
+
+# Rank: 397
+# Score: -12.592596054077148
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  filter(@param0, >, 1, 6)
+
+# Rank: 398
+# Score: -12.597185373306274
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 399
+# Score: -12.598619937896729
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  neg_select(@param0, ['-4'])
+
+# Rank: 400
+# Score: -12.601398468017578
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 5, 2)
+
+# Rank: 401
+# Score: -12.603357315063477
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  neg_select(@param0, ['-4'])
+
+# Rank: 402
+# Score: -12.604535102844238
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 2, 4)
+
+# Rank: 403
+# Score: -12.604760885238647
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 404
+# Score: -12.604771614074707
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  unite(@param0, 4, 2)
+
+# Rank: 405
+# Score: -12.60606837272644
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+
+# Rank: 406
+# Score: -12.610433340072632
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 407
+# Score: -12.613534927368164
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  neg_select(@param0, ['-2'])
+
+# Rank: 408
+# Score: -12.61406421661377
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+  filter(@param0, >, 2, 3)
+
+# Rank: 409
+# Score: -12.614257097244263
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 410
+# Score: -12.614346981048584
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 411
+# Score: -12.617088794708252
+# Solved: False
+  spread(@param0, 1, 2)
+  separate(@param0, 4)
+  filter(@param0, >, 3, 4)
+
+# Rank: 412
+# Score: -12.617921829223633
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  filter(@param0, >, 3, 3)
+
+# Rank: 413
+# Score: -12.622739791870117
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 2, 1)
+  filter(@param0, <, 5, 5)
+
+# Rank: 414
+# Score: -12.623464345932007
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 415
+# Score: -12.624033689498901
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 5)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 416
+# Score: -12.626604318618774
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 4)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 417
+# Score: -12.626770973205566
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+
+# Rank: 418
+# Score: -12.627269268035889
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 5)
+  unite(@param0, 1, 5)
+
+# Rank: 419
+# Score: -12.632980823516846
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  filter(@param0, >, 4, 6)
+
+# Rank: 420
+# Score: -12.637828350067139
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 2)
+
+# Rank: 421
+# Score: -12.642640590667725
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 5)
+  unite(@param0, 1, 5)
+
+# Rank: 422
+# Score: -12.643266439437866
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 423
+# Score: -12.647549390792847
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 424
+# Score: -12.650329113006592
+# Solved: False
+  separate(@param0, 4)
+  mutate(@param0, /, 3, 3)
+  spread(@param0, 1, 2)
+
+# Rank: 425
+# Score: -12.65283489227295
+# Solved: False
+  separate(@param0, 3)
+  filter(@param0, >, 3, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 426
+# Score: -12.655581951141357
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  filter(@param0, >, 3, 4)
+
+# Rank: 427
+# Score: -12.65748906135559
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 428
+# Score: -12.66086745262146
+# Solved: False
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 2, 1)
+
+# Rank: 429
+# Score: -12.664232015609741
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 1)
+  spread(@param0, 1, 2)
+
+# Rank: 430
+# Score: -12.667652368545532
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 431
+# Score: -12.676293134689331
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 432
+# Score: -12.679235458374023
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 2, 1)
+
+# Rank: 433
+# Score: -12.683972120285034
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 5)
+  filter(@param0, <, 1, 0)
+
+# Rank: 434
+# Score: -12.693869590759277
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 435
+# Score: -12.696407079696655
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 3, 3)
+
+# Rank: 436
+# Score: -12.696912288665771
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 437
+# Score: -12.697571277618408
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 5)
+  spread(@param0, 1, 2)
+
+# Rank: 438
+# Score: -12.701234102249146
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 3)
+
+# Rank: 439
+# Score: -12.703830480575562
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 3)
+
+# Rank: 440
+# Score: -12.706308603286743
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 4)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 441
+# Score: -12.7122483253479
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 442
+# Score: -12.712942600250244
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 5)
+  spread(@param0, 1, 2)
+
+# Rank: 443
+# Score: -12.717710733413696
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 444
+# Score: -12.718958139419556
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 1)
+
+# Rank: 445
+# Score: -12.721542596817017
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 3, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 446
+# Score: -12.722970724105835
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 2)
+  unite(@param0, 1, 5)
+
+# Rank: 447
+# Score: -12.723344802856445
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+
+# Rank: 448
+# Score: -12.730788707733154
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 449
+# Score: -12.73900818824768
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 1, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 450
+# Score: -12.742053031921387
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 451
+# Score: -12.744173288345337
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 2, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 452
+# Score: -12.74683427810669
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 4, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 453
+# Score: -12.747267723083496
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 454
+# Score: -12.747356653213501
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 455
+# Score: -12.751614093780518
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 5, 2)
+
+# Rank: 456
+# Score: -12.751630306243896
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 2, 3)
+
+# Rank: 457
+# Score: -12.752296924591064
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+
+# Rank: 458
+# Score: -12.753849267959595
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 1)
+  unite(@param0, 1, 5)
+
+# Rank: 459
+# Score: -12.757424354553223
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 460
+# Score: -12.758679389953613
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 4, 2)
+
+# Rank: 461
+# Score: -12.763676404953003
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 5)
+  filter(@param0, <, 1, 0)
+
+# Rank: 462
+# Score: -12.764072895050049
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  unite(@param0, 2, 4)
+
+# Rank: 463
+# Score: -12.767871618270874
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 2)
+
+# Rank: 464
+# Score: -12.768705368041992
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  filter(@param0, <, 5, 5)
+
+# Rank: 465
+# Score: -12.769244194030762
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 466
+# Score: -12.770155906677246
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+
+# Rank: 467
+# Score: -12.773573875427246
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 468
+# Score: -12.775160551071167
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+
+# Rank: 469
+# Score: -12.776111364364624
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 3, 3)
+
+# Rank: 470
+# Score: -12.77661657333374
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 471
+# Score: -12.777060985565186
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 4)
+  filter(@param0, <, 1, 0)
+
+# Rank: 472
+# Score: -12.777467489242554
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  mutate(@param0, /, 3, 3)
+
+# Rank: 473
+# Score: -12.77889347076416
+# Solved: False
+  spread(@param0, 1, 2)
+  mutate(@param0, /, 1, 2)
+  filter(@param0, >, 3, 3)
+
+# Rank: 474
+# Score: -12.780067920684814
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 475
+# Score: -12.785527229309082
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+
+# Rank: 476
+# Score: -12.7877197265625
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 3, 2)
+
+# Rank: 477
+# Score: -12.789844036102295
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+
+# Rank: 478
+# Score: -12.792348861694336
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 479
+# Score: -12.795927047729492
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 1, 3)
+
+# Rank: 480
+# Score: -12.797287940979004
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 5, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 481
+# Score: -12.79850459098816
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  filter(@param0, >, 3, 4)
+
+# Rank: 482
+# Score: -12.802380323410034
+# Solved: False
+  separate(@param0, 4)
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 5)
+
+# Rank: 483
+# Score: -12.803049087524414
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+
+# Rank: 484
+# Score: -12.803335189819336
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 485
+# Score: -12.806083917617798
+# Solved: False
+  separate(@param0, 3)
+  spread(@param0, 1, 2)
+  unite(@param0, 4, 1)
+
+# Rank: 486
+# Score: -12.811817169189453
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 4, 5)
+
+# Rank: 487
+# Score: -12.81261682510376
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 488
+# Score: -12.81265926361084
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 5, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 489
+# Score: -12.81382942199707
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 490
+# Score: -12.81720495223999
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 4, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 491
+# Score: -12.818597555160522
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-4'])
+  mutate(@param0, /, 3, 3)
+
+# Rank: 492
+# Score: -12.822866439819336
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 2, 1)
+
+# Rank: 493
+# Score: -12.82305383682251
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  filter(@param0, <, 1, 0)
+
+# Rank: 494
+# Score: -12.825459480285645
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 3)
+
+# Rank: 495
+# Score: -12.83017110824585
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 496
+# Score: -12.831074714660645
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 497
+# Score: -12.831334590911865
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 2, 3)
+
+# Rank: 498
+# Score: -12.832458019256592
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 499
+# Score: -12.833553552627563
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 1)
+  unite(@param0, 1, 5)
+
+# Rank: 500
+# Score: -12.834029197692871
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  unite(@param0, 3, 2)
+
+# Rank: 501
+# Score: -12.836379051208496
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+
+# Rank: 502
+# Score: -12.836506366729736
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 503
+# Score: -12.840031147003174
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 504
+# Score: -12.844842433929443
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 505
+# Score: -12.846603870391846
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 4, 2)
+
+# Rank: 506
+# Score: -12.847607135772705
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 507
+# Score: -12.84894847869873
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 508
+# Score: -12.851922273635864
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 509
+# Score: -12.85288143157959
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 510
+# Score: -12.854933977127075
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+
+# Rank: 511
+# Score: -12.85663890838623
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 5, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 512
+# Score: -12.856765270233154
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 4)
+  filter(@param0, <, 1, 0)
+
+# Rank: 513
+# Score: -12.857171773910522
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-2'])
+  mutate(@param0, /, 3, 3)
+
+# Rank: 514
+# Score: -12.859772205352783
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 515
+# Score: -12.860020637512207
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 516
+# Score: -12.86054277420044
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+  separate(@param0, 1)
+
+# Rank: 517
+# Score: -12.861561298370361
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 518
+# Score: -12.867049932479858
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+
+# Rank: 519
+# Score: -12.867424011230469
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 3, 2)
+
+# Rank: 520
+# Score: -12.868786334991455
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 521
+# Score: -12.869219779968262
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 522
+# Score: -12.86941385269165
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 523
+# Score: -12.871881008148193
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  mutate(@param0, /, 3, 2)
+
+# Rank: 524
+# Score: -12.872010231018066
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 5, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 525
+# Score: -12.872053146362305
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 526
+# Score: -12.872561693191528
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 527
+# Score: -12.873335838317871
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 528
+# Score: -12.875391960144043
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 529
+# Score: -12.875631332397461
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 1, 3)
+
+# Rank: 530
+# Score: -12.875771522521973
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 531
+# Score: -12.881243705749512
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  unite(@param0, 1, 3)
+
+# Rank: 532
+# Score: -12.88237476348877
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+
+# Rank: 533
+# Score: -12.883039474487305
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 534
+# Score: -12.88362169265747
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 5)
+  filter(@param0, >, 1, 6)
+
+# Rank: 535
+# Score: -12.883810043334961
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+  separate(@param0, 1)
+
+# Rank: 536
+# Score: -12.885521411895752
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  neg_select(@param0, ['-4'])
+
+# Rank: 537
+# Score: -12.887998580932617
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+
+# Rank: 538
+# Score: -12.889041423797607
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 539
+# Score: -12.890690803527832
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+  separate(@param0, 1)
+
+# Rank: 540
+# Score: -12.891521453857422
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 4, 5)
+
+# Rank: 541
+# Score: -12.89201021194458
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 542
+# Score: -12.892321109771729
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 543
+# Score: -12.892487049102783
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 544
+# Score: -12.893533706665039
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 545
+# Score: -12.896603107452393
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 546
+# Score: -12.897495746612549
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 547
+# Score: -12.897746086120605
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+
+# Rank: 548
+# Score: -12.898301839828491
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-4'])
+  mutate(@param0, /, 3, 3)
+
+# Rank: 549
+# Score: -12.900201320648193
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 550
+# Score: -12.900517463684082
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 3, 1)
+
+# Rank: 551
+# Score: -12.900752544403076
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  separate(@param0, 1)
+
+# Rank: 552
+# Score: -12.902570724487305
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 2, 1)
+
+# Rank: 553
+# Score: -12.902728080749512
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 554
+# Score: -12.902758121490479
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  filter(@param0, <, 1, 0)
+
+# Rank: 555
+# Score: -12.903005599975586
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 556
+# Score: -12.90429401397705
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+
+# Rank: 557
+# Score: -12.905163764953613
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 3)
+
+# Rank: 558
+# Score: -12.905713558197021
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 559
+# Score: -12.90811824798584
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 560
+# Score: -12.909875392913818
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 561
+# Score: -12.910446643829346
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  filter(@param0, <, 1, 0)
+
+# Rank: 562
+# Score: -12.910715579986572
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 563
+# Score: -12.915963411331177
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 564
+# Score: -12.916083335876465
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+
+# Rank: 565
+# Score: -12.916210651397705
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 566
+# Score: -12.919665336608887
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+
+# Rank: 567
+# Score: -12.919735431671143
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 568
+# Score: -12.92076301574707
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 569
+# Score: -12.924081802368164
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 570
+# Score: -12.925211429595947
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 571
+# Score: -12.92532992362976
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 572
+# Score: -12.926308155059814
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 4, 2)
+
+# Rank: 573
+# Score: -12.92809009552002
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 574
+# Score: -12.928164958953857
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 575
+# Score: -12.928214073181152
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+  separate(@param0, 1)
+
+# Rank: 576
+# Score: -12.928558826446533
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 577
+# Score: -12.929705142974854
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 578
+# Score: -12.930540084838867
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 3)
+
+# Rank: 579
+# Score: -12.931671142578125
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+  separate(@param0, 1)
+
+# Rank: 580
+# Score: -12.932272911071777
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 581
+# Score: -12.93333625793457
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 582
+# Score: -12.93507194519043
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 2, 3)
+
+# Rank: 583
+# Score: -12.936057567596436
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-4'])
+  unite(@param0, 1, 3)
+
+# Rank: 584
+# Score: -12.936806678771973
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+
+# Rank: 585
+# Score: -12.937636613845825
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 586
+# Score: -12.940247058868408
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+  separate(@param0, 1)
+
+# Rank: 587
+# Score: -12.940353393554688
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 588
+# Score: -12.944835186004639
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 589
+# Score: -12.945625305175781
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+  separate(@param0, 1)
+
+# Rank: 590
+# Score: -12.945699691772461
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 2, 1)
+
+# Rank: 591
+# Score: -12.945801734924316
+# Solved: False
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 2, 2)
+
+# Rank: 592
+# Score: -12.945873737335205
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 4, 1)
+  separate(@param0, 1)
+
+# Rank: 593
+# Score: -12.94588851928711
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 594
+# Score: -12.94629955291748
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 4, 5)
+
+# Rank: 595
+# Score: -12.947290420532227
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 596
+# Score: -12.94892406463623
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 597
+# Score: -12.949896812438965
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 598
+# Score: -12.950020790100098
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+  separate(@param0, 1)
+
+# Rank: 599
+# Score: -12.950239658355713
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 5, 3)
+
+# Rank: 600
+# Score: -12.951507091522217
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 601
+# Score: -12.951585292816162
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-2'])
+  mutate(@param0, /, 3, 2)
+
+# Rank: 602
+# Score: -12.952178001403809
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+
+# Rank: 603
+# Score: -12.95304012298584
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 604
+# Score: -12.953438520431519
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+
+# Rank: 605
+# Score: -12.95347785949707
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+  separate(@param0, 1)
+
+# Rank: 606
+# Score: -12.954307556152344
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 607
+# Score: -12.955142974853516
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 608
+# Score: -12.96094799041748
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-2'])
+  unite(@param0, 1, 3)
+
+# Rank: 609
+# Score: -12.961245059967041
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 4, 1)
+  separate(@param0, 1)
+
+# Rank: 610
+# Score: -12.96153974533081
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 3, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 611
+# Score: -12.96202802658081
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 612
+# Score: -12.962160110473633
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 613
+# Score: -12.962883710861206
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, >, 3, 4)
+  spread(@param0, 1, 2)
+
+# Rank: 614
+# Score: -12.963158130645752
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 2, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 615
+# Score: -12.96351432800293
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+  separate(@param0, 1)
+
+# Rank: 616
+# Score: -12.96359634399414
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 617
+# Score: -12.963719367980957
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 4)
+
+# Rank: 618
+# Score: -12.964390993118286
+# Solved: False
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 1, 3)
+
+# Rank: 619
+# Score: -12.965419292449951
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 620
+# Score: -12.966006755828857
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 621
+# Score: -12.966400623321533
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, >, 4, 6)
+  unite(@param0, 1, 5)
+
+# Rank: 622
+# Score: -12.966560363769531
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 623
+# Score: -12.966641902923584
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 624
+# Score: -12.966878414154053
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 625
+# Score: -12.967702865600586
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+
+# Rank: 626
+# Score: -12.968662738800049
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 627
+# Score: -12.968778610229492
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 628
+# Score: -12.96928358078003
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-4'])
+  filter(@param0, <, 1, 0)
+
+# Rank: 629
+# Score: -12.9703950881958
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 4, 1)
+  separate(@param0, 1)
+
+# Rank: 630
+# Score: -12.97215461730957
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+
+# Rank: 631
+# Score: -12.972191333770752
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 632
+# Score: -12.972786903381348
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 633
+# Score: -12.97291088104248
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+  separate(@param0, 1)
+
+# Rank: 634
+# Score: -12.974105834960938
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 635
+# Score: -12.97579050064087
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 636
+# Score: -12.976307392120361
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 637
+# Score: -12.976691722869873
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 638
+# Score: -12.977200031280518
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 639
+# Score: -12.978545665740967
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, >, 4, 6)
+  spread(@param0, 1, 2)
+
+# Rank: 640
+# Score: -12.978771686553955
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 641
+# Score: -12.979005336761475
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 1, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 642
+# Score: -12.979373455047607
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 643
+# Score: -12.97951865196228
+# Solved: False
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 3, 1)
+
+# Rank: 644
+# Score: -12.979905605316162
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 645
+# Score: -12.980193614959717
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 2)
+
+# Rank: 646
+# Score: -12.980456829071045
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  separate(@param0, 1)
+
+# Rank: 647
+# Score: -12.980941772460938
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 648
+# Score: -12.98120641708374
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 5, 1)
+
+# Rank: 649
+# Score: -12.982285499572754
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 650
+# Score: -12.98243236541748
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 651
+# Score: -12.982709884643555
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 652
+# Score: -12.984763383865356
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 2, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 653
+# Score: -12.98541784286499
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 654
+# Score: -12.98626184463501
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 655
+# Score: -12.986272811889648
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+
+# Rank: 656
+# Score: -12.986678838729858
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 4, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 657
+# Score: -12.987226009368896
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 658
+# Score: -12.987822532653809
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 659
+# Score: -12.988917827606201
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 660
+# Score: -12.989431381225586
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 5, 4)
+
+# Rank: 661
+# Score: -12.989531993865967
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 662
+# Score: -12.990150928497314
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-2'])
+  filter(@param0, <, 1, 0)
+
+# Rank: 663
+# Score: -12.992063045501709
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 664
+# Score: -12.992887020111084
+# Solved: False
+  separate(@param0, 3)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+
+# Rank: 665
+# Score: -12.993557453155518
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 5)
+  filter(@param0, >, 2, 6)
+
+# Rank: 666
+# Score: -12.994444847106934
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 667
+# Score: -12.996058464050293
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  filter(@param0, >, 1, 6)
+
+# Rank: 668
+# Score: -12.996313095092773
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 669
+# Score: -12.996373653411865
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 670
+# Score: -12.9971022605896
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 2)
+
+# Rank: 671
+# Score: -12.998113632202148
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 4)
+  filter(@param0, <, 1, 0)
+
+# Rank: 672
+# Score: -12.99881649017334
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 4, 6)
+  unite(@param0, 1, 3)
+
+# Rank: 673
+# Score: -13.000290870666504
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 3)
+
+# Rank: 674
+# Score: -13.000467300415039
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 675
+# Score: -13.003365993499756
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 4, 2)
+
+# Rank: 676
+# Score: -13.005059242248535
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 4, 1)
+
+# Rank: 677
+# Score: -13.006078243255615
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 678
+# Score: -13.007869243621826
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 679
+# Score: -13.00840711593628
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 680
+# Score: -13.009409427642822
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 681
+# Score: -13.0116286277771
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 5)
+  filter(@param0, >, 1, 6)
+
+# Rank: 682
+# Score: -13.011863231658936
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  spread(@param0, 1, 2)
+  unite(@param0, 1, 2)
+
+# Rank: 683
+# Score: -13.011977195739746
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 684
+# Score: -13.012736320495605
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 2)
+
+# Rank: 685
+# Score: -13.013002395629883
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 4, 6)
+  mutate(@param0, /, 4, 5)
+
+# Rank: 686
+# Score: -13.014776229858398
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 2, 3)
+
+# Rank: 687
+# Score: -13.015750646591187
+# Solved: False
+  separate(@param0, 3)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 3)
+
+# Rank: 688
+# Score: -13.015761852264404
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-4'])
+  unite(@param0, 1, 3)
+
+# Rank: 689
+# Score: -13.017340898513794
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 690
+# Score: -13.01740837097168
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 1)
+
+# Rank: 691
+# Score: -13.0228271484375
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 692
+# Score: -13.02540397644043
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 2, 1)
+
+# Rank: 693
+# Score: -13.026949405670166
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 5)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 694
+# Score: -13.027049541473389
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  unite(@param0, 2, 1)
+
+# Rank: 695
+# Score: -13.028432130813599
+# Solved: False
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 1, 2)
+
+# Rank: 696
+# Score: -13.028697490692139
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 697
+# Score: -13.02987813949585
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 4, 6)
+  unite(@param0, 1, 5)
+
+# Rank: 698
+# Score: -13.030045509338379
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 4, 2)
+
+# Rank: 699
+# Score: -13.031008243560791
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 3, 4)
+
+# Rank: 700
+# Score: -13.032318115234375
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 3, 1)
+
+# Rank: 701
+# Score: -13.035513877868652
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 702
+# Score: -13.035537719726562
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 703
+# Score: -13.038198471069336
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 704
+# Score: -13.04173231124878
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 705
+# Score: -13.044068813323975
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 706
+# Score: -13.044982433319092
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 2)
+  filter(@param0, >, 1, 6)
+
+# Rank: 707
+# Score: -13.045717239379883
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 4, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 708
+# Score: -13.045876502990723
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+
+# Rank: 709
+# Score: -13.046521663665771
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 3)
+
+# Rank: 710
+# Score: -13.048987865447998
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-4'])
+  filter(@param0, <, 1, 0)
+
+# Rank: 711
+# Score: -13.050885200500488
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 712
+# Score: -13.053003311157227
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 713
+# Score: -13.053810119628906
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 714
+# Score: -13.055494785308838
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 715
+# Score: -13.055662631988525
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  neg_select(@param0, ['-1'])
+
+# Rank: 716
+# Score: -13.058475971221924
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 717
+# Score: -13.059192657470703
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 2)
+  filter(@param0, >, 1, 6)
+
+# Rank: 718
+# Score: -13.059842109680176
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+  separate(@param0, 2)
+
+# Rank: 719
+# Score: -13.059897899627686
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 2)
+
+# Rank: 720
+# Score: -13.061247825622559
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+
+# Rank: 721
+# Score: -13.061892986297607
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 3)
+
+# Rank: 722
+# Score: -13.061989784240723
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 723
+# Score: -13.062031269073486
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 724
+# Score: -13.063543796539307
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 725
+# Score: -13.063694953918457
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 726
+# Score: -13.06467580795288
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 727
+# Score: -13.067168235778809
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, >, 3, 4)
+  separate(@param0, 1)
+
+# Rank: 728
+# Score: -13.067835330963135
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 3, 1)
+
+# Rank: 729
+# Score: -13.069135665893555
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 5, 4)
+
+# Rank: 730
+# Score: -13.069435119628906
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 731
+# Score: -13.0698823928833
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 3)
+
+# Rank: 732
+# Score: -13.071178913116455
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 733
+# Score: -13.072824001312256
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 2)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 734
+# Score: -13.075709342956543
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 3)
+
+# Rank: 735
+# Score: -13.075762748718262
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  filter(@param0, >, 1, 6)
+
+# Rank: 736
+# Score: -13.078520774841309
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 4, 6)
+  unite(@param0, 1, 3)
+
+# Rank: 737
+# Score: -13.079995155334473
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 3)
+
+# Rank: 738
+# Score: -13.083051204681396
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 2, 1)
+
+# Rank: 739
+# Score: -13.083109378814697
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+  separate(@param0, 2)
+
+# Rank: 740
+# Score: -13.08321237564087
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 741
+# Score: -13.083642959594727
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 742
+# Score: -13.083949565887451
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-4'])
+  unite(@param0, 2, 1)
+
+# Rank: 743
+# Score: -13.08419418334961
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  separate(@param0, 1)
+
+# Rank: 744
+# Score: -13.085045337677002
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 745
+# Score: -13.086339950561523
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+
+# Rank: 746
+# Score: -13.08644723892212
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 747
+# Score: -13.086452007293701
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 748
+# Score: -13.088740348815918
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 5)
+  separate(@param0, 1)
+
+# Rank: 749
+# Score: -13.089884281158447
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 750
+# Score: -13.090452671051025
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 751
+# Score: -13.090889930725098
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+  separate(@param0, 2)
+
+# Rank: 752
+# Score: -13.091054916381836
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 5)
+  separate(@param0, 1)
+
+# Rank: 753
+# Score: -13.091332912445068
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 5)
+  filter(@param0, >, 1, 6)
+
+# Rank: 754
+# Score: -13.091689109802246
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 5)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 755
+# Score: -13.09264087677002
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 756
+# Score: -13.092706680297852
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 4, 6)
+  mutate(@param0, /, 4, 5)
+
+# Rank: 757
+# Score: -13.095093250274658
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 758
+# Score: -13.09573745727539
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 759
+# Score: -13.099296569824219
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 4)
+  filter(@param0, >, 1, 6)
+
+# Rank: 760
+# Score: -13.101843357086182
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 5)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 761
+# Score: -13.101917743682861
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 762
+# Score: -13.102363109588623
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  separate(@param0, 2)
+
+# Rank: 763
+# Score: -13.103554964065552
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 5, 1)
+  filter(@param0, <, 1, 0)
+
+# Rank: 764
+# Score: -13.10566520690918
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 765
+# Score: -13.106029272079468
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 5, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 766
+# Score: -13.106186866760254
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 5)
+  unite(@param0, 1, 6)
+
+# Rank: 767
+# Score: -13.106753826141357
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-2'])
+  unite(@param0, 2, 1)
+
+# Rank: 768
+# Score: -13.107860565185547
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 5)
+
+# Rank: 769
+# Score: -13.109582424163818
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 4, 6)
+  unite(@param0, 1, 5)
+
+# Rank: 770
+# Score: -13.109749794006348
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 4, 2)
+
+# Rank: 771
+# Score: -13.109987258911133
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 5)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 772
+# Score: -13.110315799713135
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  mutate(@param0, /, 3, 4)
+
+# Rank: 773
+# Score: -13.11071252822876
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 3, 4)
+
+# Rank: 774
+# Score: -13.11160659790039
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+
+# Rank: 775
+# Score: -13.112022399902344
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 3, 1)
+
+# Rank: 776
+# Score: -13.115028381347656
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 3, 2)
+
+# Rank: 777
+# Score: -13.115908145904541
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 3)
+
+# Rank: 778
+# Score: -13.11722469329834
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 2)
+  filter(@param0, >, 2, 6)
+
+# Rank: 779
+# Score: -13.11955451965332
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 780
+# Score: -13.12155818939209
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 5)
+  unite(@param0, 1, 6)
+
+# Rank: 781
+# Score: -13.121890544891357
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 2)
+  filter(@param0, >, 1, 6)
+
+# Rank: 782
+# Score: -13.124720573425293
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+  unite(@param0, 4, 1)
+
+# Rank: 783
+# Score: -13.124890804290771
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 2, 2)
+
+# Rank: 784
+# Score: -13.125404357910156
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 3, 2)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 785
+# Score: -13.127095222473145
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 786
+# Score: -13.127395153045654
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 2, 6)
+  unite(@param0, 1, 3)
+
+# Rank: 787
+# Score: -13.127572536468506
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+  separate(@param0, 2)
+
+# Rank: 788
+# Score: -13.128268718719482
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 4)
+  filter(@param0, <, 1, 0)
+
+# Rank: 789
+# Score: -13.129046440124512
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 2)
+  separate(@param0, 1)
+
+# Rank: 790
+# Score: -13.129869937896729
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 5)
+  filter(@param0, >, 2, 6)
+
+# Rank: 791
+# Score: -13.130711555480957
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 792
+# Score: -13.13229513168335
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 793
+# Score: -13.137176036834717
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_select(@param0, ['-4'])
+  unite(@param0, 1, 3)
+
+# Rank: 794
+# Score: -13.13742733001709
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+  separate(@param0, 2)
+
+# Rank: 795
+# Score: -13.13770580291748
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 3, 1)
+  separate(@param0, 1)
+
+# Rank: 796
+# Score: -13.137728691101074
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 797
+# Score: -13.138988971710205
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 798
+# Score: -13.139546394348145
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+  separate(@param0, 2)
+
+# Rank: 799
+# Score: -13.141581058502197
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 2, 6)
+  mutate(@param0, /, 4, 5)
+
+# Rank: 800
+# Score: -13.141672611236572
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 4, 5)
+
+# Rank: 801
+# Score: -13.142120838165283
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 802
+# Score: -13.14378023147583
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 4, 1)
+  separate(@param0, 2)
+
+# Rank: 803
+# Score: -13.144052505493164
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+
+# Rank: 804
+# Score: -13.146205425262451
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 805
+# Score: -13.147539615631104
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 3, 1)
+
+# Rank: 806
+# Score: -13.149379253387451
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+  separate(@param0, 2)
+
+# Rank: 807
+# Score: -13.149397373199463
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  unite(@param0, 3, 1)
+
+# Rank: 808
+# Score: -13.151381492614746
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+  separate(@param0, 2)
+
+# Rank: 809
+# Score: -13.152199745178223
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 810
+# Score: -13.152528285980225
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 2)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 811
+# Score: -13.152793884277344
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 2, 1)
+
+# Rank: 812
+# Score: -13.15365743637085
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_select(@param0, ['-4'])
+  unite(@param0, 3, 2)
+
+# Rank: 813
+# Score: -13.154324054718018
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  neg_select(@param0, ['-1'])
+
+# Rank: 814
+# Score: -13.155074119567871
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 815
+# Score: -13.155171394348145
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 1, 3)
+  separate(@param0, 1)
+
+# Rank: 816
+# Score: -13.15600872039795
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  neg_select(@param0, ['-4'])
+
+# Rank: 817
+# Score: -13.156208038330078
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 818
+# Score: -13.156332015991211
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 2)
+  separate(@param0, 1)
+
+# Rank: 819
+# Score: -13.157530307769775
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 5, 1)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 820
+# Score: -13.158411979675293
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, <, 1, 0)
+  separate(@param0, 1)
+
+# Rank: 821
+# Score: -13.158456802368164
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 2, 6)
+  unite(@param0, 1, 5)
+
+# Rank: 822
+# Score: -13.158457517623901
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+
+# Rank: 823
+# Score: -13.159151554107666
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 4, 1)
+  separate(@param0, 2)
+
+# Rank: 824
+# Score: -13.159234046936035
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+  separate(@param0, 2)
+
+# Rank: 825
+# Score: -13.159423828125
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+
+# Rank: 826
+# Score: -13.159586429595947
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 827
+# Score: -13.160459995269775
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 4, 2)
+
+# Rank: 828
+# Score: -13.16079568862915
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 3)
+
+# Rank: 829
+# Score: -13.161601543426514
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 4, 1)
+  separate(@param0, 1)
+
+# Rank: 830
+# Score: -13.162028789520264
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  filter(@param0, >, 1, 6)
+
+# Rank: 831
+# Score: -13.162794589996338
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+
+# Rank: 832
+# Score: -13.162813663482666
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+  separate(@param0, 2)
+
+# Rank: 833
+# Score: -13.16319990158081
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 4, 2)
+
+# Rank: 834
+# Score: -13.163347244262695
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 835
+# Score: -13.16365385055542
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-4'])
+  unite(@param0, 2, 1)
+
+# Rank: 836
+# Score: -13.163898468017578
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  separate(@param0, 1)
+
+# Rank: 837
+# Score: -13.164184093475342
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-4'])
+  mutate(@param0, /, 3, 4)
+
+# Rank: 838
+# Score: -13.16591215133667
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 839
+# Score: -13.16592001914978
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 840
+# Score: -13.166151523590088
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 841
+# Score: -13.16615629196167
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+
+# Rank: 842
+# Score: -13.166642189025879
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 2, 3)
+
+# Rank: 843
+# Score: -13.167920589447021
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 844
+# Score: -13.168179988861084
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 845
+# Score: -13.169028282165527
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 846
+# Score: -13.170594215393066
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 4, 1)
+  separate(@param0, 2)
+
+# Rank: 847
+# Score: -13.170759201049805
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 5)
+  separate(@param0, 1)
+
+# Rank: 848
+# Score: -13.171393394470215
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 5)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 849
+# Score: -13.171770095825195
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 5)
+  filter(@param0, >, 2, 3)
+
+# Rank: 850
+# Score: -13.172269344329834
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+  separate(@param0, 2)
+
+# Rank: 851
+# Score: -13.172345161437988
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 852
+# Score: -13.172953128814697
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+
+# Rank: 853
+# Score: -13.173585176467896
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 1)
+
+# Rank: 854
+# Score: -13.174270629882812
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 855
+# Score: -13.174420356750488
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 2, 6)
+
+# Rank: 856
+# Score: -13.174712181091309
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 2)
+
+# Rank: 857
+# Score: -13.17615795135498
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 4)
+  separate(@param0, 1)
+
+# Rank: 858
+# Score: -13.176324367523193
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 859
+# Score: -13.176880836486816
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 3)
+
+# Rank: 860
+# Score: -13.176883220672607
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 2, 3)
+
+# Rank: 861
+# Score: -13.1780686378479
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 2, 1)
+  separate(@param0, 1)
+
+# Rank: 862
+# Score: -13.179000854492188
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 4)
+  filter(@param0, >, 1, 6)
+
+# Rank: 863
+# Score: -13.179649353027344
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 1, 2)
+
+# Rank: 864
+# Score: -13.180161952972412
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 3, 2)
+
+# Rank: 865
+# Score: -13.180216312408447
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+
+# Rank: 866
+# Score: -13.18154764175415
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 5)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 867
+# Score: -13.182067394256592
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  separate(@param0, 2)
+
+# Rank: 868
+# Score: -13.183685779571533
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 869
+# Score: -13.184053421020508
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 2)
+
+# Rank: 870
+# Score: -13.186113357543945
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 2, 3)
+
+# Rank: 871
+# Score: -13.186715126037598
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 2)
+
+# Rank: 872
+# Score: -13.188125610351562
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+  separate(@param0, 2)
+
+# Rank: 873
+# Score: -13.18819522857666
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 4)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 874
+# Score: -13.189641952514648
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 875
+# Score: -13.190020084381104
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-2'])
+  mutate(@param0, /, 3, 4)
+
+# Rank: 876
+# Score: -13.190083503723145
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 2)
+
+# Rank: 877
+# Score: -13.19118070602417
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 4)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 878
+# Score: -13.19131088256836
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+  filter(@param0, >, 2, 6)
+
+# Rank: 879
+# Score: -13.191824436187744
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 3)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 880
+# Score: -13.194201469421387
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 1)
+  separate(@param0, 1)
+
+# Rank: 881
+# Score: -13.194732666015625
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 3, 2)
+
+# Rank: 882
+# Score: -13.19561243057251
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 2, 3)
+
+# Rank: 883
+# Score: -13.196928977966309
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 2)
+  filter(@param0, >, 2, 6)
+
+# Rank: 884
+# Score: -13.19703483581543
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+
+# Rank: 885
+# Score: -13.199258804321289
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 886
+# Score: -13.201594829559326
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 2)
+  filter(@param0, >, 1, 6)
+
+# Rank: 887
+# Score: -13.203073978424072
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 4)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 888
+# Score: -13.204133033752441
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+  neg_select(@param0, ['-1'])
+
+# Rank: 889
+# Score: -13.204506874084473
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 2, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 890
+# Score: -13.20459508895874
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 2, 2)
+
+# Rank: 891
+# Score: -13.205108642578125
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 3, 2)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 892
+# Score: -13.206303596496582
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 2, 3)
+
+# Rank: 893
+# Score: -13.206799507141113
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 4, 1)
+  filter(@param0, >, 2, 3)
+
+# Rank: 894
+# Score: -13.206852912902832
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 5, 4)
+
+# Rank: 895
+# Score: -13.207064628601074
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 896
+# Score: -13.207099437713623
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 2, 6)
+  unite(@param0, 1, 3)
+
+# Rank: 897
+# Score: -13.20756196975708
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  mutate(@param0, /, 2, 2)
+
+# Rank: 898
+# Score: -13.207581996917725
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-4'])
+  unite(@param0, 3, 1)
+
+# Rank: 899
+# Score: -13.209574222564697
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 5)
+  filter(@param0, >, 2, 6)
+
+# Rank: 900
+# Score: -13.210761070251465
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 4, 4)
+
+# Rank: 901
+# Score: -13.212079524993896
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 902
+# Score: -13.214125156402588
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+
+# Rank: 903
+# Score: -13.216606140136719
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 4, 6)
+  unite(@param0, 2, 1)
+
+# Rank: 904
+# Score: -13.217740058898926
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 4)
+  filter(@param0, >, 2, 6)
+
+# Rank: 905
+# Score: -13.218727111816406
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 4, 1)
+
+# Rank: 906
+# Score: -13.218735694885254
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-1'])
+
+# Rank: 907
+# Score: -13.22115707397461
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 908
+# Score: -13.221176147460938
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 909
+# Score: -13.221285343170166
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 2, 6)
+  mutate(@param0, /, 4, 5)
+
+# Rank: 910
+# Score: -13.221779346466064
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 4)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 911
+# Score: -13.222498655319214
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 2)
+
+# Rank: 912
+# Score: -13.223801136016846
+# Solved: False
+  filter(@param0, <, 1, 0)
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+
+# Rank: 913
+# Score: -13.224885940551758
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 914
+# Score: -13.225573539733887
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+
+# Rank: 915
+# Score: -13.226017475128174
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  unite(@param0, 2, 1)
+
+# Rank: 916
+# Score: -13.226862907409668
+# Solved: False
+  separate(@param0, 3)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 1)
+
+# Rank: 917
+# Score: -13.229101657867432
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-2'])
+  unite(@param0, 3, 1)
+
+# Rank: 918
+# Score: -13.2296724319458
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 1, 2)
+
+# Rank: 919
+# Score: -13.229941368103027
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 5, 1)
+
+# Rank: 920
+# Score: -13.230781555175781
+# Solved: False
+  separate(@param0, 4)
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 3)
+
+# Rank: 921
+# Score: -13.23164701461792
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 2)
+
+# Rank: 922
+# Score: -13.232508182525635
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 923
+# Score: -13.233402252197266
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 1)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 924
+# Score: -13.233796119689941
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 925
+# Score: -13.234028339385986
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  neg_select(@param0, ['-1'])
+
+# Rank: 926
+# Score: -13.235713005065918
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  neg_select(@param0, ['-4'])
+
+# Rank: 927
+# Score: -13.236919403076172
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 3)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 928
+# Score: -13.237240314483643
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 2, 6)
+
+# Rank: 929
+# Score: -13.23804759979248
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_select(@param0, ['-4'])
+  filter(@param0, <, 1, 0)
+
+# Rank: 930
+# Score: -13.238161087036133
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 2, 6)
+  unite(@param0, 1, 5)
+
+# Rank: 931
+# Score: -13.23841905593872
+# Solved: False
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 3, 3)
+
+# Rank: 932
+# Score: -13.238420963287354
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 933
+# Score: -13.240164279937744
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 4, 2)
+
+# Rank: 934
+# Score: -13.240944862365723
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+
+# Rank: 935
+# Score: -13.24143123626709
+# Solved: False
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 936
+# Score: -13.241733074188232
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  filter(@param0, >, 1, 6)
+
+# Rank: 937
+# Score: -13.242578506469727
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 4, 6)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 938
+# Score: -13.24388837814331
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-4'])
+  mutate(@param0, /, 3, 4)
+
+# Rank: 939
+# Score: -13.243910789489746
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 940
+# Score: -13.24470043182373
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 2, 2)
+
+# Rank: 941
+# Score: -13.24485158920288
+# Solved: False
+  separate(@param0, 4)
+  unite(@param0, 1, 2)
+  filter(@param0, >, 1, 6)
+
+# Rank: 942
+# Score: -13.245312690734863
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 5, 1)
+
+# Rank: 943
+# Score: -13.245486736297607
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  mutate(@param0, /, 4, 2)
+
+# Rank: 944
+# Score: -13.246346473693848
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 2, 3)
+
+# Rank: 945
+# Score: -13.247018337249756
+# Solved: False
+  separate(@param0, 2)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 2)
+
+# Rank: 946
+# Score: -13.247743129730225
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 5, 2)
+  filter(@param0, <, 1, 0)
+
+# Rank: 947
+# Score: -13.248714923858643
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  filter(@param0, >, 1, 6)
+
+# Rank: 948
+# Score: -13.248838424682617
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 3, 2)
+
+# Rank: 949
+# Score: -13.25024127960205
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+  separate(@param0, 2)
+
+# Rank: 950
+# Score: -13.251701354980469
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 2, 3)
+
+# Rank: 951
+# Score: -13.253357887268066
+# Solved: False
+  separate(@param0, 1)
+  unite(@param0, 2, 3)
+  filter(@param0, <, 3, 1)
+
+# Rank: 952
+# Score: -13.254927158355713
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 953
+# Score: -13.25586223602295
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 4)
+  separate(@param0, 1)
+
+# Rank: 954
+# Score: -13.256357669830322
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 3, 1)
+
+# Rank: 955
+# Score: -13.258674144744873
+# Solved: False
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+  filter(@param0, <, 1, 0)
+
+# Rank: 956
+# Score: -13.259353637695312
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 1, 2)
+
+# Rank: 957
+# Score: -13.25986623764038
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 3, 2)
+
+# Rank: 958
+# Score: -13.259920597076416
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  neg_select(@param0, ['-1'])
+
+# Rank: 959
+# Score: -13.260930061340332
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  unite(@param0, 1, 2)
+
+# Rank: 960
+# Score: -13.265499114990234
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 2)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 961
+# Score: -13.265612602233887
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+  separate(@param0, 2)
+
+# Rank: 962
+# Score: -13.265817642211914
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 2, 3)
+
+# Rank: 963
+# Score: -13.266419410705566
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 3, 2)
+
+# Rank: 964
+# Score: -13.267072677612305
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 2, 3)
+
+# Rank: 965
+# Score: -13.267829895019531
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+  separate(@param0, 2)
+
+# Rank: 966
+# Score: -13.267899513244629
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 4)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 967
+# Score: -13.268729209899902
+# Solved: False
+  separate(@param0, 2)
+  unite(@param0, 2, 3)
+  filter(@param0, <, 3, 1)
+
+# Rank: 968
+# Score: -13.270341396331787
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_select(@param0, ['-4'])
+  unite(@param0, 2, 3)
+
+# Rank: 969
+# Score: -13.270884990692139
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 1, 4)
+  mutate(@param0, /, 3, 4)
+
+# Rank: 970
+# Score: -13.272281646728516
+# Solved: False
+  separate(@param0, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 2, 3)
+
+# Rank: 971
+# Score: -13.272332191467285
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 2)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 972
+# Score: -13.272470474243164
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  filter(@param0, >, 4, 6)
+  mutate(@param0, /, 5, 4)
+
+# Rank: 973
+# Score: -13.272576808929443
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 4, 2)
+  mutate(@param0, /, 3, 3)
+
+# Rank: 974
+# Score: -13.27259111404419
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  unite(@param0, 3, 2)
+
+# Rank: 975
+# Score: -13.273664951324463
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 5, 5)
+
+# Rank: 976
+# Score: -13.273665428161621
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 5, 4)
+  unite(@param0, 1, 6)
+
+# Rank: 977
+# Score: -13.274267673492432
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_select(@param0, ['-2'])
+  unite(@param0, 2, 3)
+
+# Rank: 978
+# Score: -13.274906158447266
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 979
+# Score: -13.276739120483398
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 1)
+  unite(@param0, 1, 3)
+
+# Rank: 980
+# Score: -13.279381275177002
+# Solved: False
+  separate(@param0, 3)
+  unite(@param0, 3, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 981
+# Score: -13.279502391815186
+# Solved: False
+  separate(@param0, 1)
+  mutate(@param0, /, 4, 5)
+  unite(@param0, 1, 3)
+
+# Rank: 982
+# Score: -13.281006336212158
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 5, 3)
+  filter(@param0, <, 1, 0)
+
+# Rank: 983
+# Score: -13.282780170440674
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, >, 4, 6)
+  mutate(@param0, /, 4, 5)
+
+# Rank: 984
+# Score: -13.282967567443848
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 3, 2)
+
+# Rank: 985
+# Score: -13.28383731842041
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+  neg_select(@param0, ['-1'])
+
+# Rank: 986
+# Score: -13.285804748535156
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 1, 2)
+  separate(@param0, 2)
+
+# Rank: 987
+# Score: -13.285935401916504
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  filter(@param0, <, 1, 0)
+  unite(@param0, 1, 2)
+
+# Rank: 988
+# Score: -13.28600788116455
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  unite(@param0, 2, 3)
+  filter(@param0, >, 2, 3)
+
+# Rank: 989
+# Score: -13.286768913269043
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  filter(@param0, >, 3, 4)
+  mutate(@param0, /, 4, 4)
+
+# Rank: 990
+# Score: -13.28693962097168
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 1, 3)
+  filter(@param0, >, 1, 6)
+
+# Rank: 991
+# Score: -13.287266254425049
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-2'])
+  mutate(@param0, /, 2, 2)
+
+# Rank: 992
+# Score: -13.287286281585693
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-4'])
+  unite(@param0, 3, 1)
+
+# Rank: 993
+# Score: -13.287400722503662
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_select(@param0, ['-1'])
+  unite(@param0, 3, 2)
+
+# Rank: 994
+# Score: -13.287793636322021
+# Solved: False
+  filter(@param0, <, 1, 0)
+  mutate(@param0, /, 3, 3)
+  unite(@param0, 4, 1)
+
+# Rank: 995
+# Score: -13.288063526153564
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  unite(@param0, 2, 1)
+  filter(@param0, >, 1, 6)
+
+# Rank: 996
+# Score: -13.288244247436523
+# Solved: False
+  separate(@param0, 1)
+  filter(@param0, >, 3, 4)
+  unite(@param0, 2, 3)
+
+# Rank: 997
+# Score: -13.289036273956299
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 4)
+  filter(@param0, <, 5, 5)
+
+# Rank: 998
+# Score: -13.289036750793457
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 5, 4)
+  unite(@param0, 1, 6)
+
+# Rank: 999
+# Score: -13.290465354919434
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-1'])
+  mutate(@param0, /, 4, 4)
+

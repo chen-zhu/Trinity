@@ -1,0 +1,7000 @@
+# Rank: 0
+# Score: -9.674878120422363
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 1
+# Score: -9.779091119766235
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 2
+# Score: -9.822462797164917
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 3
+# Score: -9.897051334381104
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 4
+# Score: -9.927809715270996
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 5
+# Score: -9.964731931686401
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 6
+# Score: -9.981936693191528
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 7
+# Score: -10.021010160446167
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 8
+# Score: -10.039757490158081
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 9
+# Score: -10.044097423553467
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 10
+# Score: -10.064269304275513
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 11
+# Score: -10.066453218460083
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 12
+# Score: -10.076942205429077
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 13
+# Score: -10.078420162200928
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 14
+# Score: -10.083777666091919
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 15
+# Score: -10.094146966934204
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 16
+# Score: -10.129236459732056
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 17
+# Score: -10.133220434188843
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 18
+# Score: -10.139475107192993
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 19
+# Score: -10.144593000411987
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 20
+# Score: -10.151967763900757
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 21
+# Score: -10.157313108444214
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 22
+# Score: -10.15998387336731
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 23
+# Score: -10.172528743743896
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 24
+# Score: -10.183455228805542
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 25
+# Score: -10.190932750701904
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 26
+# Score: -10.204806327819824
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 27
+# Score: -10.24112844467163
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 28
+# Score: -10.250780582427979
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 29
+# Score: -10.251685380935669
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 30
+# Score: -10.256803274154663
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 31
+# Score: -10.26952338218689
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 32
+# Score: -10.27075743675232
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 33
+# Score: -10.27682113647461
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 34
+# Score: -10.295665502548218
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 35
+# Score: -10.302131414413452
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 36
+# Score: -10.307568550109863
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 37
+# Score: -10.338517427444458
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 38
+# Score: -10.359088659286499
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 39
+# Score: -10.362753868103027
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 40
+# Score: -10.376595258712769
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 41
+# Score: -10.388717651367188
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 42
+# Score: -10.418466567993164
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 43
+# Score: -10.42009162902832
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 44
+# Score: -10.435671329498291
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 45
+# Score: -10.451504945755005
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 46
+# Score: -10.47474479675293
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 47
+# Score: -10.476153373718262
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 48
+# Score: -10.483782529830933
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 49
+# Score: -10.493492126464844
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 50
+# Score: -10.515961408615112
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 51
+# Score: -10.518627643585205
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 52
+# Score: -10.528988361358643
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 53
+# Score: -10.529756784439087
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 54
+# Score: -10.532134771347046
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2'])
+
+# Rank: 55
+# Score: -10.53316617012024
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 56
+# Score: -10.53328800201416
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 57
+# Score: -10.540457487106323
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 58
+# Score: -10.549375057220459
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 59
+# Score: -10.554023742675781
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 60
+# Score: -10.570086479187012
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 61
+# Score: -10.572239637374878
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 62
+# Score: -10.580323934555054
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 63
+# Score: -10.590986967086792
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 64
+# Score: -10.59224247932434
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 65
+# Score: -10.593209743499756
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 66
+# Score: -10.59832763671875
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 67
+# Score: -10.601460456848145
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 68
+# Score: -10.611047744750977
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 69
+# Score: -10.614209651947021
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 70
+# Score: -10.61773943901062
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 71
+# Score: -10.620885848999023
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2'])
+
+# Rank: 72
+# Score: -10.637189865112305
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 73
+# Score: -10.645468711853027
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 74
+# Score: -10.650017023086548
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 75
+# Score: -10.653163433074951
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2'])
+
+# Rank: 76
+# Score: -10.683725595474243
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 77
+# Score: -10.690704584121704
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 78
+# Score: -10.694905519485474
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 79
+# Score: -10.695822477340698
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 80
+# Score: -10.695991277694702
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 81
+# Score: -10.696338653564453
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 82
+# Score: -10.699137687683105
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2'])
+
+# Rank: 83
+# Score: -10.70093035697937
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 84
+# Score: -10.70806622505188
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 85
+# Score: -10.708542585372925
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 86
+# Score: -10.725704193115234
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 87
+# Score: -10.734684705734253
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 88
+# Score: -10.734694957733154
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 89
+# Score: -10.740003824234009
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 90
+# Score: -10.746153831481934
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 91
+# Score: -10.758751153945923
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 92
+# Score: -10.761756420135498
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 93
+# Score: -10.761794328689575
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 94
+# Score: -10.76335859298706
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 95
+# Score: -10.773538589477539
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 96
+# Score: -10.7850821018219
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 97
+# Score: -10.795935869216919
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 98
+# Score: -10.8024320602417
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 99
+# Score: -10.805917978286743
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 100
+# Score: -10.80764889717102
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 101
+# Score: -10.811110973358154
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-2'])
+
+# Rank: 102
+# Score: -10.812865734100342
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 103
+# Score: -10.813140630722046
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 104
+# Score: -10.81686282157898
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 105
+# Score: -10.821179389953613
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 106
+# Score: -10.82435393333435
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 107
+# Score: -10.834632396697998
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-4'])
+
+# Rank: 108
+# Score: -10.843664407730103
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 109
+# Score: -10.843923330307007
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 110
+# Score: -10.84499454498291
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1'])
+
+# Rank: 111
+# Score: -10.846226930618286
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 112
+# Score: -10.852214097976685
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 113
+# Score: -10.852655172348022
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 114
+# Score: -10.856293201446533
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 115
+# Score: -10.85836410522461
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 116
+# Score: -10.858468770980835
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 117
+# Score: -10.860894203186035
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 118
+# Score: -10.863431692123413
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 119
+# Score: -10.863586664199829
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 120
+# Score: -10.868271589279175
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 121
+# Score: -10.870961427688599
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 122
+# Score: -10.875568866729736
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 123
+# Score: -10.876306772232056
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 124
+# Score: -10.878233432769775
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 125
+# Score: -10.890802145004272
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 126
+# Score: -10.899862051010132
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-2'])
+
+# Rank: 127
+# Score: -10.902448892593384
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 128
+# Score: -10.902505159378052
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 129
+# Score: -10.913960695266724
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 130
+# Score: -10.914642333984375
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 131
+# Score: -10.916006803512573
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 132
+# Score: -10.920897006988525
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 133
+# Score: -10.921123266220093
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 134
+# Score: -10.921252489089966
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 135
+# Score: -10.922205686569214
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 136
+# Score: -10.923383474349976
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-4'])
+
+# Rank: 137
+# Score: -10.925609111785889
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 138
+# Score: -10.92601490020752
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 139
+# Score: -10.928491830825806
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 140
+# Score: -10.93213963508606
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-2'])
+
+# Rank: 141
+# Score: -10.932666778564453
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 142
+# Score: -10.933389663696289
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 143
+# Score: -10.933745622634888
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1'])
+
+# Rank: 144
+# Score: -10.936800479888916
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 145
+# Score: -10.938735008239746
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 146
+# Score: -10.94848918914795
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 147
+# Score: -10.949645280838013
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 148
+# Score: -10.950130939483643
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 149
+# Score: -10.95301628112793
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 4)
+  neg_select(@param0, ['-5'])
+
+# Rank: 150
+# Score: -10.955661058425903
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-4'])
+
+# Rank: 151
+# Score: -10.958437204360962
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 152
+# Score: -10.963428974151611
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 153
+# Score: -10.964447498321533
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 154
+# Score: -10.964877128601074
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 155
+# Score: -10.966023206710815
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1'])
+
+# Rank: 156
+# Score: -10.966752767562866
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 157
+# Score: -10.96733570098877
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 158
+# Score: -10.97067904472351
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 159
+# Score: -10.975641965866089
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 160
+# Score: -10.975796937942505
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 161
+# Score: -10.977205276489258
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 162
+# Score: -10.97734546661377
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-2'])
+
+# Rank: 163
+# Score: -10.978113889694214
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-2'])
+
+# Rank: 164
+# Score: -10.98046350479126
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 165
+# Score: -10.98192286491394
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 166
+# Score: -10.983540296554565
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 167
+# Score: -10.985187292098999
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 168
+# Score: -10.986154079437256
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-3'])
+
+# Rank: 169
+# Score: -10.988517045974731
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 170
+# Score: -10.994234561920166
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 171
+# Score: -10.994410037994385
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 172
+# Score: -10.994882106781006
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 173
+# Score: -10.996193647384644
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 174
+# Score: -11.00088882446289
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 175
+# Score: -11.001635313034058
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-4'])
+
+# Rank: 176
+# Score: -11.003600835800171
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 177
+# Score: -11.003877878189087
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 178
+# Score: -11.004613399505615
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 179
+# Score: -11.006409168243408
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 180
+# Score: -11.00876235961914
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 181
+# Score: -11.01199746131897
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1'])
+
+# Rank: 182
+# Score: -11.012086868286133
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 183
+# Score: -11.01465916633606
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 184
+# Score: -11.014715433120728
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 185
+# Score: -11.015856266021729
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 186
+# Score: -11.016594171524048
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 187
+# Score: -11.016806840896606
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 188
+# Score: -11.020725011825562
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 189
+# Score: -11.020970106124878
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 190
+# Score: -11.024210453033447
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 191
+# Score: -11.025033235549927
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 192
+# Score: -11.025156497955322
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 193
+# Score: -11.026087999343872
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 194
+# Score: -11.027897119522095
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 195
+# Score: -11.030248403549194
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 196
+# Score: -11.033107280731201
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 197
+# Score: -11.033462762832642
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 198
+# Score: -11.033483505249023
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 199
+# Score: -11.033967018127441
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 200
+# Score: -11.034024000167847
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 201
+# Score: -11.037600755691528
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 202
+# Score: -11.038225173950195
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 203
+# Score: -11.038808107376099
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 204
+# Score: -11.040814638137817
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 205
+# Score: -11.041706085205078
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 206
+# Score: -11.041767358779907
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 4)
+  neg_select(@param0, ['-5'])
+
+# Rank: 207
+# Score: -11.050945281982422
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 208
+# Score: -11.051160335540771
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 209
+# Score: -11.052230834960938
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 210
+# Score: -11.053088188171387
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 211
+# Score: -11.055994510650635
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 212
+# Score: -11.056008100509644
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 213
+# Score: -11.058019399642944
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 214
+# Score: -11.058910846710205
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 215
+# Score: -11.062341213226318
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 216
+# Score: -11.0647451877594
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 217
+# Score: -11.064950227737427
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 218
+# Score: -11.066096544265747
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-2'])
+
+# Rank: 219
+# Score: -11.066449403762817
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 220
+# Score: -11.068567991256714
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 221
+# Score: -11.069907665252686
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 222
+# Score: -11.07321286201477
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 223
+# Score: -11.074044942855835
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 4)
+  neg_select(@param0, ['-5'])
+
+# Rank: 224
+# Score: -11.074905157089233
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-3'])
+
+# Rank: 225
+# Score: -11.07607650756836
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 226
+# Score: -11.07708740234375
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 227
+# Score: -11.077339887619019
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 228
+# Score: -11.079545974731445
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 229
+# Score: -11.081949949264526
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 230
+# Score: -11.084712982177734
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 231
+# Score: -11.085729837417603
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 232
+# Score: -11.08575177192688
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 233
+# Score: -11.089415550231934
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 234
+# Score: -11.093854665756226
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 235
+# Score: -11.0942542552948
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 236
+# Score: -11.094819784164429
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 237
+# Score: -11.097092866897583
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 238
+# Score: -11.097984313964844
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 239
+# Score: -11.098151445388794
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 240
+# Score: -11.098374128341675
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-2'])
+
+# Rank: 241
+# Score: -11.099315404891968
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 242
+# Score: -11.101500511169434
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 243
+# Score: -11.10662031173706
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 244
+# Score: -11.106977939605713
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 245
+# Score: -11.107182741165161
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-3'])
+
+# Rank: 246
+# Score: -11.108236074447632
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 247
+# Score: -11.111059427261353
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 248
+# Score: -11.11228632926941
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 249
+# Score: -11.113608598709106
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-4'])
+
+# Rank: 250
+# Score: -11.115840196609497
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 251
+# Score: -11.116731643676758
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 252
+# Score: -11.118619441986084
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 253
+# Score: -11.12001919746399
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 4)
+  neg_select(@param0, ['-5'])
+
+# Rank: 254
+# Score: -11.120901107788086
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 255
+# Score: -11.121023416519165
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 256
+# Score: -11.123306274414062
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 257
+# Score: -11.123970746994019
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-1'])
+
+# Rank: 258
+# Score: -11.124874114990234
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 259
+# Score: -11.126229763031006
+# Solved: False
+  separate(@param0, 2)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 260
+# Score: -11.129992008209229
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 261
+# Score: -11.130264282226562
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 262
+# Score: -11.131033658981323
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 263
+# Score: -11.132771968841553
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 264
+# Score: -11.133180379867554
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 265
+# Score: -11.137366771697998
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 266
+# Score: -11.137460231781006
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 267
+# Score: -11.138298273086548
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 268
+# Score: -11.139705896377563
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 269
+# Score: -11.139770746231079
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 270
+# Score: -11.14051103591919
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 271
+# Score: -11.142712116241455
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 272
+# Score: -11.144348382949829
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-2'])
+
+# Rank: 273
+# Score: -11.1456937789917
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 274
+# Score: -11.150132894515991
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 275
+# Score: -11.151018381118774
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 276
+# Score: -11.15194845199585
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 277
+# Score: -11.153156995773315
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-3'])
+
+# Rank: 278
+# Score: -11.153583288192749
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 279
+# Score: -11.153916358947754
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 280
+# Score: -11.154664993286133
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 281
+# Score: -11.155560970306396
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 282
+# Score: -11.156851768493652
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 283
+# Score: -11.157066345214844
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 284
+# Score: -11.162929773330688
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 285
+# Score: -11.164441108703613
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 286
+# Score: -11.16767168045044
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-6'])
+
+# Rank: 287
+# Score: -11.168854236602783
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 288
+# Score: -11.168880224227905
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 289
+# Score: -11.169625282287598
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 290
+# Score: -11.16978645324707
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 291
+# Score: -11.170459032058716
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 292
+# Score: -11.17112112045288
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 293
+# Score: -11.172282218933105
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 294
+# Score: -11.174473285675049
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 295
+# Score: -11.174743175506592
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 296
+# Score: -11.177160501480103
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 297
+# Score: -11.177562475204468
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 298
+# Score: -11.17870020866394
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 299
+# Score: -11.179584503173828
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 300
+# Score: -11.179639339447021
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 301
+# Score: -11.187463283538818
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 302
+# Score: -11.18774151802063
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 303
+# Score: -11.18793272972107
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 304
+# Score: -11.190131187438965
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 305
+# Score: -11.190387487411499
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 306
+# Score: -11.193738460540771
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 307
+# Score: -11.193812370300293
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 308
+# Score: -11.195928573608398
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 309
+# Score: -11.198331832885742
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 310
+# Score: -11.199888467788696
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 311
+# Score: -11.201420307159424
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 312
+# Score: -11.20203948020935
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 313
+# Score: -11.202359676361084
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-4'])
+
+# Rank: 314
+# Score: -11.205904245376587
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 315
+# Score: -11.206064939498901
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 316
+# Score: -11.206254005432129
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 317
+# Score: -11.209769010543823
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 318
+# Score: -11.21019458770752
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 319
+# Score: -11.212485790252686
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 320
+# Score: -11.212721824645996
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-1'])
+
+# Rank: 321
+# Score: -11.212779998779297
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 322
+# Score: -11.213605403900146
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  separate(@param0, 5)
+  neg_select(@param0, ['-5'])
+
+# Rank: 323
+# Score: -11.215335845947266
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 324
+# Score: -11.215350866317749
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 325
+# Score: -11.21555781364441
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 326
+# Score: -11.216152667999268
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 327
+# Score: -11.21644926071167
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 328
+# Score: -11.217093229293823
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 329
+# Score: -11.217370510101318
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 330
+# Score: -11.220552921295166
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 331
+# Score: -11.220675706863403
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 332
+# Score: -11.221567153930664
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 333
+# Score: -11.223269701004028
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 334
+# Score: -11.224924564361572
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 335
+# Score: -11.227487325668335
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 336
+# Score: -11.227896928787231
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 337
+# Score: -11.228941917419434
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 338
+# Score: -11.230751276016235
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 339
+# Score: -11.233230829238892
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 340
+# Score: -11.23339581489563
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 341
+# Score: -11.23428726196289
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 342
+# Score: -11.234637260437012
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-4'])
+
+# Rank: 343
+# Score: -11.234955072402954
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 344
+# Score: -11.235516548156738
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 345
+# Score: -11.23586916923523
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 346
+# Score: -11.23643183708191
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 347
+# Score: -11.23708438873291
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 348
+# Score: -11.237757682800293
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 349
+# Score: -11.239079236984253
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 350
+# Score: -11.239440441131592
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 351
+# Score: -11.239488363265991
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 352
+# Score: -11.242202281951904
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 353
+# Score: -11.244606256484985
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 354
+# Score: -11.244999408721924
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-1'])
+
+# Rank: 355
+# Score: -11.245684385299683
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 356
+# Score: -11.245967864990234
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 357
+# Score: -11.246900081634521
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 358
+# Score: -11.247818231582642
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 359
+# Score: -11.248589277267456
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 360
+# Score: -11.248744487762451
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 361
+# Score: -11.251635551452637
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 362
+# Score: -11.252159833908081
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 363
+# Score: -11.252601623535156
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 364
+# Score: -11.252721309661865
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 365
+# Score: -11.253636598587036
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 366
+# Score: -11.254703521728516
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 367
+# Score: -11.25492238998413
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 368
+# Score: -11.255406379699707
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  spread(@param0, 5, 6)
+
+# Rank: 369
+# Score: -11.255820751190186
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 370
+# Score: -11.256166696548462
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 371
+# Score: -11.256409883499146
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 372
+# Score: -11.256422758102417
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-6'])
+
+# Rank: 373
+# Score: -11.2567720413208
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 374
+# Score: -11.257326364517212
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 375
+# Score: -11.257606267929077
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 376
+# Score: -11.257662773132324
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 377
+# Score: -11.258644342422485
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 378
+# Score: -11.259537935256958
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 379
+# Score: -11.260429382324219
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 380
+# Score: -11.262343168258667
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 381
+# Score: -11.263117551803589
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 382
+# Score: -11.264158725738525
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 383
+# Score: -11.264699697494507
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 384
+# Score: -11.265130281448364
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-3'])
+
+# Rank: 385
+# Score: -11.266081809997559
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 386
+# Score: -11.268597841262817
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 387
+# Score: -11.268840312957764
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 388
+# Score: -11.26927661895752
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 389
+# Score: -11.270187854766846
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 390
+# Score: -11.271221160888672
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 391
+# Score: -11.272139072418213
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 392
+# Score: -11.272143840789795
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  group_by(@param0, ['4', '6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 393
+# Score: -11.273715734481812
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 394
+# Score: -11.27381443977356
+# Solved: False
+  separate(@param0, 1)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 395
+# Score: -11.273904085159302
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 396
+# Score: -11.274731397628784
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  separate(@param0, 2)
+  neg_select(@param0, ['-5'])
+
+# Rank: 397
+# Score: -11.274914026260376
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 398
+# Score: -11.276831150054932
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 399
+# Score: -11.277848958969116
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 400
+# Score: -11.278501272201538
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 401
+# Score: -11.279843091964722
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-4'])
+
+# Rank: 402
+# Score: -11.280611515045166
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-4'])
+
+# Rank: 403
+# Score: -11.281064510345459
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 404
+# Score: -11.281090497970581
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 405
+# Score: -11.281996726989746
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 406
+# Score: -11.282869338989258
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 407
+# Score: -11.28346848487854
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 408
+# Score: -11.283664226531982
+# Solved: False
+  separate(@param0, 2)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 409
+# Score: -11.286435842514038
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 410
+# Score: -11.287148714065552
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 411
+# Score: -11.287290573120117
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 412
+# Score: -11.288700342178345
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-6'])
+
+# Rank: 413
+# Score: -11.28959321975708
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 414
+# Score: -11.290205240249634
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-1'])
+
+# Rank: 415
+# Score: -11.290973663330078
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-1'])
+
+# Rank: 416
+# Score: -11.29123330116272
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 417
+# Score: -11.291794776916504
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 418
+# Score: -11.292710065841675
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 419
+# Score: -11.294987916946411
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 420
+# Score: -11.295578479766846
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 421
+# Score: -11.297101736068726
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 5, 4)
+
+# Rank: 422
+# Score: -11.297383308410645
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 423
+# Score: -11.298049449920654
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 424
+# Score: -11.298350811004639
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 425
+# Score: -11.299961566925049
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 426
+# Score: -11.30113673210144
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 427
+# Score: -11.301167964935303
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 428
+# Score: -11.301968574523926
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 429
+# Score: -11.303167343139648
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 430
+# Score: -11.303931951522827
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  group_by(@param0, ['4', '6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 431
+# Score: -11.304353475570679
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 432
+# Score: -11.305701732635498
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 433
+# Score: -11.305892944335938
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 434
+# Score: -11.307590246200562
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 3)
+  neg_select(@param0, ['-2'])
+
+# Rank: 435
+# Score: -11.307913780212402
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 436
+# Score: -11.308138847351074
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 437
+# Score: -11.309980630874634
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 438
+# Score: -11.310542106628418
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 439
+# Score: -11.311457395553589
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 440
+# Score: -11.31190824508667
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  unite(@param0, 5, 4)
+
+# Rank: 441
+# Score: -11.312203407287598
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 442
+# Score: -11.312577962875366
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 443
+# Score: -11.31440782546997
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 444
+# Score: -11.314588069915771
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 445
+# Score: -11.314925909042358
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 446
+# Score: -11.314960718154907
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 447
+# Score: -11.315887451171875
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 448
+# Score: -11.316743850708008
+# Solved: False
+  separate(@param0, 2)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 449
+# Score: -11.317166328430176
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 450
+# Score: -11.317321300506592
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 451
+# Score: -11.317883014678955
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 452
+# Score: -11.318213701248169
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 453
+# Score: -11.321136713027954
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  group_by(@param0, ['4', '6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 454
+# Score: -11.322421312332153
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 455
+# Score: -11.322629928588867
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 456
+# Score: -11.324552536010742
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 457
+# Score: -11.32544493675232
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 458
+# Score: -11.326661109924316
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 459
+# Score: -11.328659534454346
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 460
+# Score: -11.330041408538818
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 461
+# Score: -11.330146312713623
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 462
+# Score: -11.331612586975098
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 463
+# Score: -11.33163857460022
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 464
+# Score: -11.332763195037842
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 465
+# Score: -11.33291745185852
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 466
+# Score: -11.33377742767334
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 467
+# Score: -11.334674596786499
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-6'])
+
+# Rank: 468
+# Score: -11.334718942642212
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 469
+# Score: -11.335245609283447
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 470
+# Score: -11.335330724716187
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 471
+# Score: -11.33692979812622
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  spread(@param0, 5, 6)
+
+# Rank: 472
+# Score: -11.337972164154053
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 473
+# Score: -11.340270757675171
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 474
+# Score: -11.34138822555542
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 475
+# Score: -11.342029571533203
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 476
+# Score: -11.343426942825317
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 477
+# Score: -11.344157457351685
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  spread(@param0, 5, 6)
+
+# Rank: 478
+# Score: -11.345447540283203
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 479
+# Score: -11.346056461334229
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 480
+# Score: -11.346497535705566
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 481
+# Score: -11.349967956542969
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 482
+# Score: -11.352522850036621
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 483
+# Score: -11.352839469909668
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 484
+# Score: -11.353377342224121
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 485
+# Score: -11.35366153717041
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 486
+# Score: -11.353881359100342
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-3'])
+
+# Rank: 487
+# Score: -11.354261636734009
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 488
+# Score: -11.356183528900146
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 489
+# Score: -11.356239795684814
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 490
+# Score: -11.357039451599121
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 491
+# Score: -11.357353687286377
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 492
+# Score: -11.360176801681519
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 493
+# Score: -11.360210180282593
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  group_by(@param0, ['4', '6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 494
+# Score: -11.361624479293823
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 495
+# Score: -11.362174272537231
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 496
+# Score: -11.362746238708496
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 497
+# Score: -11.363845825195312
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 498
+# Score: -11.363961696624756
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  unite(@param0, 3, 5)
+
+# Rank: 499
+# Score: -11.36670470237732
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 500
+# Score: -11.36699652671814
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 501
+# Score: -11.3685941696167
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-4'])
+
+# Rank: 502
+# Score: -11.369727611541748
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 503
+# Score: -11.36989974975586
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 504
+# Score: -11.370686054229736
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 505
+# Score: -11.372408866882324
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 506
+# Score: -11.372639656066895
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 507
+# Score: -11.374578475952148
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 508
+# Score: -11.374631643295288
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 509
+# Score: -11.374732255935669
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 510
+# Score: -11.374987125396729
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 511
+# Score: -11.375359058380127
+# Solved: False
+  separate(@param0, 2)
+  group_by(@param0, ['1', '3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 512
+# Score: -11.375481605529785
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 513
+# Score: -11.376435041427612
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  spread(@param0, 5, 6)
+
+# Rank: 514
+# Score: -11.378044128417969
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 515
+# Score: -11.378434419631958
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 516
+# Score: -11.378956317901611
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-1'])
+
+# Rank: 517
+# Score: -11.378957509994507
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  group_by(@param0, ['4', '6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 518
+# Score: -11.379292488098145
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 519
+# Score: -11.379749536514282
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 520
+# Score: -11.380808115005493
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 521
+# Score: -11.38105058670044
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 522
+# Score: -11.381077766418457
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 523
+# Score: -11.382468461990356
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 524
+# Score: -11.382659912109375
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 525
+# Score: -11.382850170135498
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 526
+# Score: -11.384326219558716
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 527
+# Score: -11.384695291519165
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 5, 4)
+
+# Rank: 528
+# Score: -11.385303497314453
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 529
+# Score: -11.385586023330688
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 530
+# Score: -11.385926008224487
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 531
+# Score: -11.38615894317627
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-3'])
+
+# Rank: 532
+# Score: -11.387025117874146
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 533
+# Score: -11.387101888656616
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 534
+# Score: -11.389041423797607
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 535
+# Score: -11.38943338394165
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 536
+# Score: -11.390191793441772
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 537
+# Score: -11.390341520309448
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 538
+# Score: -11.392469644546509
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 539
+# Score: -11.394148826599121
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 540
+# Score: -11.395296096801758
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 541
+# Score: -11.395639181137085
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 542
+# Score: -11.39599347114563
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 543
+# Score: -11.396341323852539
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 3)
+  neg_select(@param0, ['-2'])
+
+# Rank: 544
+# Score: -11.396497249603271
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 545
+# Score: -11.397456407546997
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 546
+# Score: -11.398646116256714
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 547
+# Score: -11.400387048721313
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 548
+# Score: -11.400413990020752
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 549
+# Score: -11.400659322738647
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  unite(@param0, 5, 4)
+
+# Rank: 550
+# Score: -11.400871753692627
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-4'])
+
+# Rank: 551
+# Score: -11.401273727416992
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 552
+# Score: -11.401373386383057
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 4)
+  neg_select(@param0, ['-2'])
+
+# Rank: 553
+# Score: -11.403352499008179
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 554
+# Score: -11.403865575790405
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 555
+# Score: -11.405275821685791
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 556
+# Score: -11.406229019165039
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 557
+# Score: -11.407673120498657
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 558
+# Score: -11.407788753509521
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 559
+# Score: -11.408801078796387
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 560
+# Score: -11.409698247909546
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 561
+# Score: -11.41025972366333
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 562
+# Score: -11.411175012588501
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 563
+# Score: -11.411233901977539
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-1'])
+
+# Rank: 564
+# Score: -11.412247657775879
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 565
+# Score: -11.412970781326294
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 566
+# Score: -11.413134098052979
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 567
+# Score: -11.413597583770752
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 568
+# Score: -11.41384243965149
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 569
+# Score: -11.414389610290527
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 570
+# Score: -11.414661169052124
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 571
+# Score: -11.41481614112854
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 572
+# Score: -11.415377616882324
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 573
+# Score: -11.416292905807495
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 574
+# Score: -11.4177725315094
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 575
+# Score: -11.418611764907837
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 576
+# Score: -11.418805837631226
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 577
+# Score: -11.4188973903656
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 578
+# Score: -11.419379472732544
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 579
+# Score: -11.420124053955078
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 580
+# Score: -11.421070337295532
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 581
+# Score: -11.422409296035767
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  spread(@param0, 5, 6)
+
+# Rank: 582
+# Score: -11.423996686935425
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 583
+# Score: -11.424788236618042
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 584
+# Score: -11.426085948944092
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 585
+# Score: -11.426378726959229
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 586
+# Score: -11.426618099212646
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 587
+# Score: -11.427536249160767
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 588
+# Score: -11.4275484085083
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 589
+# Score: -11.428081750869751
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 590
+# Score: -11.42809772491455
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 591
+# Score: -11.428618907928467
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 3)
+  neg_select(@param0, ['-2'])
+
+# Rank: 592
+# Score: -11.429013013839722
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 593
+# Score: -11.43093991279602
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 594
+# Score: -11.431248426437378
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 595
+# Score: -11.431248903274536
+# Solved: False
+  separate(@param0, 1)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 596
+# Score: -11.43136477470398
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-3'])
+
+# Rank: 597
+# Score: -11.43137264251709
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 598
+# Score: -11.431496620178223
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 599
+# Score: -11.432133197784424
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-3'])
+
+# Rank: 600
+# Score: -11.432886123657227
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 601
+# Score: -11.432936906814575
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  unite(@param0, 5, 4)
+
+# Rank: 602
+# Score: -11.434712648391724
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 603
+# Score: -11.435375690460205
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 604
+# Score: -11.43557071685791
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 605
+# Score: -11.436326742172241
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 606
+# Score: -11.437177896499634
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 607
+# Score: -11.43761682510376
+# Solved: False
+  separate(@param0, 2)
+  group_by(@param0, ['3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 608
+# Score: -11.438785791397095
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 609
+# Score: -11.438871383666992
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 610
+# Score: -11.43904709815979
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 611
+# Score: -11.439276218414307
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 612
+# Score: -11.439545631408691
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 613
+# Score: -11.440118074417114
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 614
+# Score: -11.440381526947021
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 615
+# Score: -11.440418481826782
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 616
+# Score: -11.44321584701538
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  group_by(@param0, ['1', '3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 617
+# Score: -11.443822860717773
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 618
+# Score: -11.44421672821045
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 619
+# Score: -11.444546461105347
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  spread(@param0, 5, 6)
+
+# Rank: 620
+# Score: -11.44468641281128
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 5, 4)
+
+# Rank: 621
+# Score: -11.445577621459961
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 622
+# Score: -11.446647882461548
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-6'])
+
+# Rank: 623
+# Score: -11.446846008300781
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-4'])
+
+# Rank: 624
+# Score: -11.448144674301147
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 625
+# Score: -11.448577404022217
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 626
+# Score: -11.448721408843994
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 627
+# Score: -11.449475288391113
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 1, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 628
+# Score: -11.44955325126648
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 629
+# Score: -11.451174974441528
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 630
+# Score: -11.45244288444519
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 631
+# Score: -11.452580451965332
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 632
+# Score: -11.452712774276733
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  unite(@param0, 3, 5)
+
+# Rank: 633
+# Score: -11.453398942947388
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 634
+# Score: -11.453459978103638
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 635
+# Score: -11.453678369522095
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 636
+# Score: -11.453734636306763
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 637
+# Score: -11.454239845275879
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 638
+# Score: -11.454318046569824
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 639
+# Score: -11.45515513420105
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 640
+# Score: -11.456274271011353
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 641
+# Score: -11.457208156585693
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-1'])
+
+# Rank: 642
+# Score: -11.45762324333191
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 643
+# Score: -11.457959175109863
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 644
+# Score: -11.458230972290039
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 645
+# Score: -11.460143804550171
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 646
+# Score: -11.461023807525635
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 647
+# Score: -11.461891889572144
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 648
+# Score: -11.46230435371399
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-1'])
+  spread(@param0, 5, 6)
+
+# Rank: 649
+# Score: -11.464328527450562
+# Solved: False
+  separate(@param0, 1)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 650
+# Score: -11.464726686477661
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 651
+# Score: -11.464733123779297
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 652
+# Score: -11.465353727340698
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 653
+# Score: -11.465798377990723
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 654
+# Score: -11.466731071472168
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 655
+# Score: -11.467009782791138
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 656
+# Score: -11.469647645950317
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 657
+# Score: -11.470214605331421
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 658
+# Score: -11.470293045043945
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 659
+# Score: -11.470358848571777
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 660
+# Score: -11.470799684524536
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 661
+# Score: -11.471885204315186
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 662
+# Score: -11.472126483917236
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 663
+# Score: -11.472481966018677
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 664
+# Score: -11.473029613494873
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 665
+# Score: -11.474593162536621
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 3)
+  neg_select(@param0, ['-2'])
+
+# Rank: 666
+# Score: -11.47470474243164
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 667
+# Score: -11.47520661354065
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 668
+# Score: -11.47724437713623
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 669
+# Score: -11.478558540344238
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 670
+# Score: -11.478675127029419
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  group_by(@param0, ['4', '6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 671
+# Score: -11.478891134262085
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 672
+# Score: -11.47891116142273
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  unite(@param0, 5, 4)
+
+# Rank: 673
+# Score: -11.479584693908691
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 674
+# Score: -11.479729890823364
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 675
+# Score: -11.479822635650635
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 676
+# Score: -11.47993540763855
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 677
+# Score: -11.480502128601074
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 678
+# Score: -11.481359958648682
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 679
+# Score: -11.481937885284424
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 680
+# Score: -11.482896327972412
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 681
+# Score: -11.483428955078125
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 682
+# Score: -11.483621835708618
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  group_by(@param0, ['1', '3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 683
+# Score: -11.483793020248413
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  group_by(@param0, ['4', '6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 684
+# Score: -11.484990358352661
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  unite(@param0, 3, 5)
+
+# Rank: 685
+# Score: -11.485144138336182
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 686
+# Score: -11.487070560455322
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 687
+# Score: -11.487218141555786
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 688
+# Score: -11.487261772155762
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 689
+# Score: -11.487650871276855
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 690
+# Score: -11.487859964370728
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 691
+# Score: -11.488706588745117
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 692
+# Score: -11.489151000976562
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 693
+# Score: -11.489964485168457
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 694
+# Score: -11.490124464035034
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 4)
+  neg_select(@param0, ['-2'])
+
+# Rank: 695
+# Score: -11.49165391921997
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 696
+# Score: -11.492542743682861
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 697
+# Score: -11.492644548416138
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  group_by(@param0, ['1', '3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 698
+# Score: -11.494026899337769
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 699
+# Score: -11.494268894195557
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 700
+# Score: -11.49446964263916
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  summarise(@param0, mean, 4)
+
+# Rank: 701
+# Score: -11.49544072151184
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 702
+# Score: -11.496004343032837
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 703
+# Score: -11.49651312828064
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  group_by(@param0, ['4', '6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 704
+# Score: -11.496696710586548
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 705
+# Score: -11.497149229049683
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 706
+# Score: -11.497627258300781
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 707
+# Score: -11.498088836669922
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  neg_select(@param0, ['-2'])
+
+# Rank: 708
+# Score: -11.498564720153809
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 709
+# Score: -11.499638080596924
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 710
+# Score: -11.500428676605225
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 711
+# Score: -11.500813245773315
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 712
+# Score: -11.500826597213745
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  group_by(@param0, ['1', '3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 713
+# Score: -11.500962018966675
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 714
+# Score: -11.500998735427856
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 715
+# Score: -11.501197814941406
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 4)
+  neg_select(@param0, ['-5'])
+
+# Rank: 716
+# Score: -11.50124192237854
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 717
+# Score: -11.501360416412354
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-1'])
+  spread(@param0, 5, 6)
+
+# Rank: 718
+# Score: -11.501599073410034
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  neg_select(@param0, ['-4'])
+
+# Rank: 719
+# Score: -11.501643657684326
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 720
+# Score: -11.502248525619507
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 721
+# Score: -11.502655506134033
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 5, 4)
+
+# Rank: 722
+# Score: -11.503010749816895
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 2)
+  summarise(@param0, max, 4)
+
+# Rank: 723
+# Score: -11.504164695739746
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 724
+# Score: -11.504780054092407
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 725
+# Score: -11.505872011184692
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  separate(@param0, 1)
+  neg_select(@param0, ['-5'])
+
+# Rank: 726
+# Score: -11.5059654712677
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 727
+# Score: -11.50639820098877
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 728
+# Score: -11.506580591201782
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 729
+# Score: -11.506629228591919
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 730
+# Score: -11.506989002227783
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 731
+# Score: -11.507506370544434
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 732
+# Score: -11.507761478424072
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 733
+# Score: -11.508721113204956
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 734
+# Score: -11.509834289550781
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 735
+# Score: -11.510401248931885
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 736
+# Score: -11.5122811794281
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 737
+# Score: -11.512624263763428
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 738
+# Score: -11.512645483016968
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 739
+# Score: -11.515444040298462
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 740
+# Score: -11.515620946884155
+# Solved: False
+  separate(@param0, 4)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 741
+# Score: -11.516106605529785
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 742
+# Score: -11.516257286071777
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 743
+# Score: -11.51669955253601
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 744
+# Score: -11.516901969909668
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 745
+# Score: -11.518347263336182
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 746
+# Score: -11.51856517791748
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-1'])
+  spread(@param0, 5, 6)
+
+# Rank: 747
+# Score: -11.51868486404419
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 748
+# Score: -11.51923394203186
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 749
+# Score: -11.519655466079712
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 750
+# Score: -11.520115852355957
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-3'])
+
+# Rank: 751
+# Score: -11.521011352539062
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 752
+# Score: -11.522402048110962
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 4)
+  neg_select(@param0, ['-2'])
+
+# Rank: 753
+# Score: -11.522655248641968
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  group_by(@param0, ['4', '6'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 754
+# Score: -11.52294373512268
+# Solved: False
+  separate(@param0, 1)
+  group_by(@param0, ['1', '3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 755
+# Score: -11.52445673942566
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 756
+# Score: -11.524944067001343
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 757
+# Score: -11.525344371795654
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 758
+# Score: -11.525633335113525
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 759
+# Score: -11.526304483413696
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 760
+# Score: -11.526816368103027
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 761
+# Score: -11.527266025543213
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 762
+# Score: -11.52746844291687
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 763
+# Score: -11.527722597122192
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 764
+# Score: -11.528434753417969
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 765
+# Score: -11.529097080230713
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 766
+# Score: -11.529267072677612
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 767
+# Score: -11.530434846878052
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 768
+# Score: -11.530964612960815
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  unite(@param0, 3, 5)
+
+# Rank: 769
+# Score: -11.531698226928711
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 770
+# Score: -11.531802654266357
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 771
+# Score: -11.53191089630127
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 772
+# Score: -11.532383918762207
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 773
+# Score: -11.533131122589111
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 774
+# Score: -11.533276319503784
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 775
+# Score: -11.533462047576904
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 776
+# Score: -11.534088611602783
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  group_by(@param0, ['3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 777
+# Score: -11.534382581710815
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  spread(@param0, 5, 6)
+
+# Rank: 778
+# Score: -11.534537315368652
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 779
+# Score: -11.535398960113525
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-6'])
+
+# Rank: 780
+# Score: -11.537638187408447
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 781
+# Score: -11.537878274917603
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 5)
+  neg_select(@param0, ['-2'])
+
+# Rank: 782
+# Score: -11.538408279418945
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  group_by(@param0, ['3', '5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 783
+# Score: -11.538589000701904
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 784
+# Score: -11.539758682250977
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 785
+# Score: -11.539900064468384
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  group_by(@param0, ['1', '3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 786
+# Score: -11.541388511657715
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 5)
+  neg_select(@param0, ['-4'])
+
+# Rank: 787
+# Score: -11.541747093200684
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 788
+# Score: -11.542383432388306
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 789
+# Score: -11.542974472045898
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 790
+# Score: -11.543582916259766
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 791
+# Score: -11.543631315231323
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-3'])
+
+# Rank: 792
+# Score: -11.543706893920898
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 793
+# Score: -11.544398546218872
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 794
+# Score: -11.545104026794434
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 795
+# Score: -11.545639514923096
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 796
+# Score: -11.54604196548462
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 797
+# Score: -11.54758596420288
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 798
+# Score: -11.547589302062988
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 799
+# Score: -11.548073530197144
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 800
+# Score: -11.548242092132568
+# Solved: False
+  separate(@param0, 2)
+  mutate(@param0, /, 4, 4)
+  neg_select(@param0, ['-5'])
+
+# Rank: 801
+# Score: -11.54926586151123
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  neg_select(@param0, ['-1'])
+
+# Rank: 802
+# Score: -11.550185680389404
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 803
+# Score: -11.551486492156982
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 804
+# Score: -11.551718950271606
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 805
+# Score: -11.551867485046387
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 806
+# Score: -11.552393436431885
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-3'])
+
+# Rank: 807
+# Score: -11.552695512771606
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  group_by(@param0, ['3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 808
+# Score: -11.55295705795288
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 809
+# Score: -11.55317759513855
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 810
+# Score: -11.554035663604736
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 811
+# Score: -11.55428695678711
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 812
+# Score: -11.555073499679565
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 813
+# Score: -11.556101083755493
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 814
+# Score: -11.556385517120361
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 815
+# Score: -11.556427001953125
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 816
+# Score: -11.556857109069824
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 817
+# Score: -11.557007312774658
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 818
+# Score: -11.55763864517212
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-1'])
+  spread(@param0, 5, 6)
+
+# Rank: 819
+# Score: -11.558078289031982
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 820
+# Score: -11.558295488357544
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 821
+# Score: -11.558647394180298
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  group_by(@param0, ['1', '3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 822
+# Score: -11.55915355682373
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 823
+# Score: -11.560636281967163
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 824
+# Score: -11.560641050338745
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-1'])
+  spread(@param0, 5, 6)
+
+# Rank: 825
+# Score: -11.560787677764893
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 826
+# Score: -11.561182260513306
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 827
+# Score: -11.561603307723999
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 828
+# Score: -11.562445640563965
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 829
+# Score: -11.562446594238281
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 830
+# Score: -11.562594413757324
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 831
+# Score: -11.563537836074829
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 832
+# Score: -11.5640287399292
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 833
+# Score: -11.564790725708008
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 834
+# Score: -11.564794063568115
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 835
+# Score: -11.564798831939697
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 836
+# Score: -11.567415952682495
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3'])
+
+# Rank: 837
+# Score: -11.567676544189453
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-6'])
+
+# Rank: 838
+# Score: -11.568376302719116
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 4)
+  neg_select(@param0, ['-2'])
+
+# Rank: 839
+# Score: -11.570088148117065
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  group_by(@param0, ['3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 840
+# Score: -11.57046627998352
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 841
+# Score: -11.57101559638977
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 842
+# Score: -11.57119107246399
+# Solved: False
+  separate(@param0, 2)
+  gather(@param0, ['5'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 843
+# Score: -11.571246147155762
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 844
+# Score: -11.571873664855957
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 845
+# Score: -11.572199583053589
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 846
+# Score: -11.57227873802185
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 847
+# Score: -11.572535514831543
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 848
+# Score: -11.576385974884033
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-1'])
+  spread(@param0, 5, 6)
+
+# Rank: 849
+# Score: -11.577040910720825
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 850
+# Score: -11.577317476272583
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 851
+# Score: -11.577327013015747
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 852
+# Score: -11.578608751296997
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 853
+# Score: -11.578984022140503
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 854
+# Score: -11.579250574111938
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 855
+# Score: -11.579778671264648
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 856
+# Score: -11.582003593444824
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 857
+# Score: -11.582569122314453
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 858
+# Score: -11.58268690109253
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-6'])
+
+# Rank: 859
+# Score: -11.583220720291138
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  summarise(@param0, mean, 4)
+
+# Rank: 860
+# Score: -11.583726644515991
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 861
+# Score: -11.584712982177734
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 862
+# Score: -11.585201501846313
+# Solved: False
+  separate(@param0, 1)
+  group_by(@param0, ['3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 863
+# Score: -11.586486101150513
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 864
+# Score: -11.587130308151245
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 865
+# Score: -11.587292909622192
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  group_by(@param0, ['3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 866
+# Score: -11.589055299758911
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 5)
+  neg_select(@param0, ['-1'])
+
+# Rank: 867
+# Score: -11.59003758430481
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 868
+# Score: -11.590884447097778
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  unite(@param0, 5, 4)
+
+# Rank: 869
+# Score: -11.591282844543457
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 870
+# Score: -11.591761827468872
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 2)
+  summarise(@param0, max, 4)
+
+# Rank: 871
+# Score: -11.5921311378479
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-1'])
+  spread(@param0, 5, 6)
+
+# Rank: 872
+# Score: -11.59291386604309
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 873
+# Score: -11.592935562133789
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 874
+# Score: -11.593166828155518
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 875
+# Score: -11.593341827392578
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 876
+# Score: -11.59339451789856
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 877
+# Score: -11.593570232391357
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 878
+# Score: -11.594064235687256
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 879
+# Score: -11.594245672225952
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 880
+# Score: -11.59622311592102
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 881
+# Score: -11.596446752548218
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 882
+# Score: -11.597157716751099
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  group_by(@param0, ['1'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 883
+# Score: -11.598015785217285
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 884
+# Score: -11.598367691040039
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-3'])
+
+# Rank: 885
+# Score: -11.599160194396973
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 886
+# Score: -11.599861145019531
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 887
+# Score: -11.600676774978638
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 888
+# Score: -11.601361274719238
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 889
+# Score: -11.603460311889648
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 890
+# Score: -11.603864192962646
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 891
+# Score: -11.603867530822754
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 892
+# Score: -11.6043381690979
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 893
+# Score: -11.605683088302612
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 894
+# Score: -11.606115818023682
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 895
+# Score: -11.606479167938232
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 896
+# Score: -11.607205390930176
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3'])
+
+# Rank: 897
+# Score: -11.607290267944336
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 898
+# Score: -11.607941627502441
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 899
+# Score: -11.609122514724731
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 900
+# Score: -11.61005687713623
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 901
+# Score: -11.610118865966797
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 902
+# Score: -11.610140323638916
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 903
+# Score: -11.610604763031006
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  group_by(@param0, ['1', '3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 904
+# Score: -11.610774993896484
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 905
+# Score: -11.610800981521606
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 906
+# Score: -11.611233711242676
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 907
+# Score: -11.611423015594482
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 3)
+  neg_select(@param0, ['-4'])
+
+# Rank: 908
+# Score: -11.612882375717163
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 5)
+  neg_select(@param0, ['-6'])
+
+# Rank: 909
+# Score: -11.613650798797607
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-6'])
+
+# Rank: 910
+# Score: -11.61369514465332
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 911
+# Score: -11.614221811294556
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 912
+# Score: -11.61425495147705
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 913
+# Score: -11.61437439918518
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 2)
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 914
+# Score: -11.615161657333374
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 915
+# Score: -11.615236759185791
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 916
+# Score: -11.615498304367065
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  summarise(@param0, mean, 4)
+
+# Rank: 917
+# Score: -11.61604905128479
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 2)
+  neg_select(@param0, ['-2'])
+
+# Rank: 918
+# Score: -11.616179704666138
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 919
+# Score: -11.61728811264038
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 920
+# Score: -11.617598295211792
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 921
+# Score: -11.617860078811646
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 922
+# Score: -11.617877721786499
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 923
+# Score: -11.618608474731445
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 924
+# Score: -11.618773460388184
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 5)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 925
+# Score: -11.619158029556274
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 4)
+  neg_select(@param0, ['-5'])
+
+# Rank: 926
+# Score: -11.619199275970459
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 927
+# Score: -11.619424104690552
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  separate(@param0, 3)
+  neg_select(@param0, ['-5'])
+
+# Rank: 928
+# Score: -11.619559288024902
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 2)
+  neg_select(@param0, ['-4'])
+
+# Rank: 929
+# Score: -11.619909048080444
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 3)
+  neg_select(@param0, ['-1'])
+
+# Rank: 930
+# Score: -11.620279550552368
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 931
+# Score: -11.621077060699463
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 932
+# Score: -11.621750354766846
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 933
+# Score: -11.622588872909546
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-2'])
+  spread(@param0, 5, 6)
+
+# Rank: 934
+# Score: -11.62261152267456
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 935
+# Score: -11.622614860534668
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 936
+# Score: -11.623133659362793
+# Solved: False
+  neg_group_by(@param0, ['-5'])
+  separate(@param0, 1)
+  spread(@param0, 5, 6)
+
+# Rank: 937
+# Score: -11.623521089553833
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 938
+# Score: -11.623953819274902
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 939
+# Score: -11.6240394115448
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 2)
+  summarise(@param0, max, 4)
+
+# Rank: 940
+# Score: -11.624290704727173
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 941
+# Score: -11.62454080581665
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 942
+# Score: -11.62481164932251
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 943
+# Score: -11.626366376876831
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  group_by(@param0, ['3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 944
+# Score: -11.627186059951782
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 945
+# Score: -11.627485752105713
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 946
+# Score: -11.627956867218018
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 947
+# Score: -11.628467559814453
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 948
+# Score: -11.628831624984741
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 949
+# Score: -11.632303953170776
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 950
+# Score: -11.632999658584595
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 951
+# Score: -11.63331913948059
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 952
+# Score: -11.634095430374146
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 953
+# Score: -11.635229110717773
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  separate(@param0, 1)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 954
+# Score: -11.635670185089111
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-4'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 955
+# Score: -11.637293815612793
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 956
+# Score: -11.638689041137695
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 957
+# Score: -11.638888120651245
+# Solved: False
+  neg_group_by(@param0, ['-1'])
+  separate(@param0, 2)
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 958
+# Score: -11.639476299285889
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 959
+# Score: -11.639599800109863
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 960
+# Score: -11.639824390411377
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 961
+# Score: -11.642937898635864
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  unite(@param0, 3, 5)
+
+# Rank: 962
+# Score: -11.644010305404663
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-6'])
+  unite(@param0, 3, 5)
+
+# Rank: 963
+# Score: -11.644594192504883
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 964
+# Score: -11.644745826721191
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 965
+# Score: -11.645024061203003
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  group_by(@param0, ['2', '4'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 966
+# Score: -11.645084142684937
+# Solved: False
+  mutate(@param0, /, 4, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-5', '-6'])
+
+# Rank: 967
+# Score: -11.645113706588745
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  group_by(@param0, ['3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 968
+# Score: -11.645341396331787
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 969
+# Score: -11.64567232131958
+# Solved: False
+  mutate(@param0, /, 3, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-5'])
+
+# Rank: 970
+# Score: -11.645972728729248
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 1)
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 971
+# Score: -11.646474123001099
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 972
+# Score: -11.64722728729248
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  neg_group_by(@param0, ['-6'])
+  spread(@param0, 5, 6)
+
+# Rank: 973
+# Score: -11.648035526275635
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 974
+# Score: -11.648826599121094
+# Solved: False
+  separate(@param0, 1)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 975
+# Score: -11.6491060256958
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 976
+# Score: -11.649213790893555
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2', '-6'])
+
+# Rank: 977
+# Score: -11.649663209915161
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2'])
+
+# Rank: 978
+# Score: -11.649848461151123
+# Solved: False
+  mutate(@param0, /, 4, 2)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 979
+# Score: -11.649970054626465
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4', '-6'])
+
+# Rank: 980
+# Score: -11.65009593963623
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-3'])
+
+# Rank: 981
+# Score: -11.652066469192505
+# Solved: False
+  mutate(@param0, /, 1, 2)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 982
+# Score: -11.65216851234436
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 983
+# Score: -11.654098987579346
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 984
+# Score: -11.654163837432861
+# Solved: False
+  mutate(@param0, /, 3, 3)
+  separate(@param0, 5)
+  neg_select(@param0, ['-1', '-4'])
+
+# Rank: 985
+# Score: -11.65541124343872
+# Solved: False
+  neg_group_by(@param0, ['-4'])
+  separate(@param0, 1)
+  spread(@param0, 5, 6)
+
+# Rank: 986
+# Score: -11.655760526657104
+# Solved: False
+  separate(@param0, 2)
+  neg_group_by(@param0, ['-1'])
+  neg_select(@param0, ['-2', '-5'])
+
+# Rank: 987
+# Score: -11.65583848953247
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 5)
+  neg_select(@param0, ['-2'])
+
+# Rank: 988
+# Score: -11.656103134155273
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
+# Rank: 989
+# Score: -11.65731430053711
+# Solved: False
+  mutate(@param0, /, 1, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-4', '-5'])
+
+# Rank: 990
+# Score: -11.658029556274414
+# Solved: False
+  mutate(@param0, /, 2, 3)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-1'])
+
+# Rank: 991
+# Score: -11.658296823501587
+# Solved: False
+  neg_group_by(@param0, ['-2'])
+  separate(@param0, 1)
+  summarise(@param0, mean, 3)
+
+# Rank: 992
+# Score: -11.65836501121521
+# Solved: False
+  mutate(@param0, /, 4, 5)
+  group_by(@param0, ['1', '3'])
+  neg_select(@param0, ['-5'])
+
+# Rank: 993
+# Score: -11.659141778945923
+# Solved: False
+  mutate(@param0, /, 1, 3)
+  separate(@param0, 2)
+  neg_select(@param0, ['-3', '-6'])
+
+# Rank: 994
+# Score: -11.659348726272583
+# Solved: False
+  mutate(@param0, /, 4, 4)
+  separate(@param0, 5)
+  neg_select(@param0, ['-4'])
+
+# Rank: 995
+# Score: -11.659579038619995
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-6'])
+  neg_select(@param0, ['-6'])
+
+# Rank: 996
+# Score: -11.660271883010864
+# Solved: False
+  mutate(@param0, /, 3, 4)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 5, 4)
+
+# Rank: 997
+# Score: -11.660612344741821
+# Solved: False
+  separate(@param0, 4)
+  neg_group_by(@param0, ['-2'])
+  neg_select(@param0, ['-4'])
+
+# Rank: 998
+# Score: -11.660953521728516
+# Solved: False
+  mutate(@param0, /, 1, 1)
+  neg_group_by(@param0, ['-5'])
+  unite(@param0, 3, 5)
+
+# Rank: 999
+# Score: -11.661221027374268
+# Solved: False
+  mutate(@param0, /, 3, 1)
+  neg_group_by(@param0, ['-5'])
+  neg_select(@param0, ['-1', '-2'])
+
