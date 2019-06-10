@@ -812,7 +812,33 @@ def morpheus_abstraction(p_obj, verbose=False):
     return final_abs_code
 
 
+'''
+cheating information for agent learning debugging
+'''
+def morpheus_cheating(p0_obj, p1_obj, verbose=False):
 
+    # just need to get column names
+    try:
+        ac0 = robjects.r("colnames({table})".format(table=p0_obj))
+    except Exception:
+        # the same applies to this
+        # then just create an empty list of column ignoreNames
+        ac0 = []
+
+    # just need to get column names
+    try:
+        ac1 = robjects.r("colnames({table})".format(table=p1_obj))
+    except Exception:
+        # the same applies to this
+        # then just create an empty list of column ignoreNames
+        ac1 = []
+
+    abs_code = [0 for _ in range(10)]
+    for i in range(len(ac0)):
+        if ac0[i] in ac1:
+            abs_code[i] = 1
+
+    return abs_code
 
 
 
