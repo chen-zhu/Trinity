@@ -17,7 +17,7 @@ import pickle
 from pathlib import Path
 
 def main():
-	p_max_depth = 4
+	p_max_depth = 3
 
 	if len(sys.argv)!=2:
 		print("# INVALID.")
@@ -36,7 +36,7 @@ def main():
 
 	data_list = []
 
-	spec = S.parse_file('example/mChainOneNB.tyrell')
+	spec = S.parse_file('example/set1.tyrell')
 	mcoder = MorpheusInterpreter()
 
 	while True:
@@ -46,6 +46,8 @@ def main():
 
 			while True:
 				minput = mcoder.random_table()
+				# mcoder.print_obj(minput)
+				# print(robjects.r(minput).r_repr())
 				generator = MorpheusGenerator(
 					spec=spec,
 					interpreter=mcoder,
@@ -55,7 +57,7 @@ def main():
 					fixed_depth=p_max_depth,
 					example=Example(input=[minput],output=None),
 				)
-				if p_prog.is_apply():
+				if p_prog is not None and p_prog.is_apply():
 					break
 
 			# Morpheus Only: serializable
@@ -87,8 +89,17 @@ def main():
 					eq_r(p_example.output,bp_example.output)
 				))
 
-
-
+			# print("========INPUT========")
+			# mcoder.print_obj(p_example.input[0])
+			# print("========OUTPUT========")
+			# mcoder.print_obj(p_example.output)
+			# print("========VECTOR========")
+			# print(morpheus_mutate(
+			# 	p_example.input[0],
+			# 	p_example.output
+			# ))
+			# print(p_prog)
+			# time.sleep(1)
 			new_data.append(
 				# first and last
 				(p_prog,str_example)

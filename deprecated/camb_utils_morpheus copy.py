@@ -102,8 +102,8 @@ class MorpheusInterpreter(PostOrderInterpreter):
             "MAX_VALUE": 100,
             "MIN_VALUE": -100,
             "MAX_ROW": 10, 
-            "MAX_COL": 6,
-            # "MAX_COL": 4, # set 2
+            # "MAX_COL": 6,
+            "MAX_COL": 4, # set 2
         }
         self.random_dicts = {
             # the first 3 ms are dumb
@@ -125,8 +125,8 @@ class MorpheusInterpreter(PostOrderInterpreter):
     # CAMB: should also generate a shadow table
     def random_table(self):
         dr = random.randint(5,self.init_settings["MAX_ROW"])
-        dc = random.randint(3,self.init_settings["MAX_COL"])
-        # dc = random.randint(2,self.init_settings["MAX_COL"]) # set2
+        # dc = random.randint(3,self.init_settings["MAX_COL"])
+        dc = random.randint(2,self.init_settings["MAX_COL"]) # set2
 
         vlist = [
             self.random_dicts[
@@ -151,7 +151,6 @@ class MorpheusInterpreter(PostOrderInterpreter):
         )
         # print("CODE:")
         # print(mr_script)
-        dr = 1 # [OVERRIDE] we don't care about row changes
         shadow_script = "{} <- data.frame(matrix(0L, {}, {}))".format(
             get_shadow_name(ref_df_name), dr, dc
         )
@@ -169,7 +168,6 @@ class MorpheusInterpreter(PostOrderInterpreter):
     # used in Trainer when loading from pworker file
     def create_shadow(self, obj):
         dr = robjects.r("nrow({})".format(obj))[0]
-        dr = 1 # [OVERRIDE] we don't care about row changes
         dc = robjects.r("ncol({})".format(obj))[0]
         shadow_script = "{} <- data.frame(matrix(0L, {}, {}))".format(
             get_shadow_name(obj), dr, dc,
@@ -233,10 +231,10 @@ class MorpheusInterpreter(PostOrderInterpreter):
             return False
 
         # CAMB.0) check for utilization
-        prog_size = p_prog.__repr__().count("ApplyNode")
-        shadow_max = robjects.r("max({})".format(get_shadow_name(p_example.output)))[0]
-        if not shadow_max==prog_size:
-            return False
+        # prog_size = p_prog.__repr__().count("ApplyNode")
+        # shadow_max = robjects.r("max({})".format(get_shadow_name(p_example.output)))[0]
+        # if not shadow_max==prog_size:
+        #     return False
 
         # 0.2) if mutate, make sure not dividing on the same columns
         # def rec_check_mutate(p_current):
@@ -376,13 +374,13 @@ class MorpheusInterpreter(PostOrderInterpreter):
         _script = '{ret_df} <- select({table}, {cols})'.format(
                    ret_df=ret_df_name, table=args[0], cols=get_collist(args[1]))
         # print("CODE: {}".format(_script))
-        shadow_script = '{} <- select({}, {}) + 1'.format(
-                         get_shadow_name(ret_df_name), 
-                         get_shadow_name(args[0]), 
-                         get_collist(args[1]))
+        # shadow_script = '{} <- select({}, {}) + 1'.format(
+        #                  get_shadow_name(ret_df_name), 
+        #                  get_shadow_name(args[0]), 
+        #                  get_collist(args[1]))
         try:
             ret_val = robjects.r(_script)
-            _ = robjects.r(shadow_script)
+            # _ = robjects.r(shadow_script)
             return ret_df_name
         except:
             # logger.error('Error in interpreting select...')
@@ -487,26 +485,8 @@ class MorpheusInterpreter(PostOrderInterpreter):
         _script = '{ret_df} <- spread({table}, {col1}, {col2})'.format(
                   ret_df=ret_df_name, table=args[0], col1=str(args[1]), col2=str(args[2]))
         # print("CODE: {}".format(_script))
-        shadow_maxcnt = robjects.r('max({table}[,c({col1},{col2})])'.format(
-                                    table=get_shadow_name(args[0]),
-                                    col1=str(args[1]), 
-                                    col2=str(args[2])))[0]
         try:
             ret_val = robjects.r(_script)
-
-            # shadow of spread needs to be computed after concrete execution
-            dc0 = robjects.r("ncol({})".format(args[0]))[0]
-            dc1 = robjects.r("ncol({})".format(ret_df_name))[0]
-            dc2 = dc1-(dc0-2) # number of new columns
-            # print("OK")
-            shadow_script = '{ret_shadow} <- as.data.frame(cbind(as.matrix(select({table},{cols})),{smax}))'.format(
-                             ret_shadow=get_shadow_name(ret_df_name), 
-                             table=get_shadow_name(args[0]), 
-                             cols="c(-{},-{})".format(args[1],args[2]),
-                             smax=",".join(["c({})".format(shadow_maxcnt+1) for _ in range(dc2)]), )
-            # print("SHADOW_SPREAD: {}".format(shadow_script))
-            _ = robjects.r(shadow_script)
-
             return ret_df_name
         except:
             # pritn("ERROR")
@@ -525,19 +505,18 @@ class MorpheusInterpreter(PostOrderInterpreter):
         _script = '{ret_df} <- gather({table}, KEY, VALUE, {cols})'.format(
                    ret_df=ret_df_name, table=args[0], cols=get_collist(args[1]))
         # print("CODE: {}".format(_script))
-        shadow_maxcnt = robjects.r('max({table}[,c({cols})])'.format(
-                                    table=get_shadow_name(args[0]),
-                                    cols=get_collist(args[1])))[0]
+        # shadow_maxcnt = robjects.r('max({}[,c({})])'.format(
+        #                             get_shadow_name(args[0]),
+        #                             get_collist(args[1])))[0]
         # print("OH?")
-        shadow_script = '{ret_shadow} <- as.data.frame(cbind(as.matrix(select({table},{cols})),{smax}))'.format(
-                         ret_shadow=get_shadow_name(ret_df_name), 
-                         table=get_shadow_name(args[0]), 
-                         cols="c({})".format(",".join(["-{}".format(i) for i in args[1]])),
-                         smax=",".join(["c({})".format(shadow_maxcnt+1) for _ in range(2)]), )
-        # print("SHADOW_GATHER: {}".format(shadow_script))
+        # shadow_script = '{} <- as.data.frame(cbind(as.matrix({}),c({}),c({})))'.format(
+        #                  get_shadow_name(ret_df_name), 
+        #                  get_shadow_name(args[0]), 
+        #                  shadow_maxcnt+1, shadow_maxcnt+1)
+        # print("SHADOW: {}".format(shadow_script))
         try:
             ret_val = robjects.r(_script)
-            _ = robjects.r(shadow_script)
+            # _ = robjects.r(shadow_script)
             return ret_df_name
         except:
             # logger.error('Error in interpreting gather...')
@@ -910,19 +889,19 @@ def camb_get_features(p0_obj, p1_obj, verbose=False):
         for j in range(min(CAMB_NCOL,dc1)):
             bmap[i,j] = camb_get_x2x_value(np1_obj[i,j],ab_dic,"b")
 
-    cd_dic = {i:set([ac0[i]]) for i in range(len(ac0))} # [ac0[i]] for entire string/value
-    # col to col mapping
-    cmap = numpy.zeros((1,CAMB_NCOL)) # map for columns
-    for i in range(min(CAMB_NCOL, dc1)):
-        cmap[0,i] = camb_get_x2x_value(ac1[i],cd_dic,"c")
-    # col to cell mapping
-    dmap = numpy.zeros((CAMB_NROW,CAMB_NCOL)) # 0 is <PAD>
-    for i in range(min(CAMB_NROW,dr1)):
-        for j in range(min(CAMB_NCOL,dc1)):
-            dmap[i,j] = camb_get_x2x_value(np1_obj[i,j],cd_dic,"d")
+    # cd_dic = {i:set([ac0[i]]) for i in range(len(ac0))} # [ac0[i]] for entire string/value
+    # # col to col mapping
+    # cmap = numpy.zeros((1,CAMB_NCOL)) # map for columns
+    # for i in range(min(CAMB_NCOL, dc1)):
+    #     cmap[0,i] = camb_get_x2x_value(ac1[i],cd_dic,"c")
+    # # col to cell mapping
+    # dmap = numpy.zeros((CAMB_NROW,CAMB_NCOL)) # 0 is <PAD>
+    # for i in range(min(CAMB_NROW,dr1)):
+    #     for j in range(min(CAMB_NCOL,dc1)):
+    #         dmap[i,j] = camb_get_x2x_value(np1_obj[i,j],cd_dic,"d")
 
-    rmap = numpy.vstack((amap, bmap, cmap, dmap))
-    # rmap = numpy.vstack((amap, bmap))
+    # rmap = numpy.vstack((amap, bmap, cmap, dmap))
+    rmap = numpy.vstack((amap, bmap))
 
     if verbose:
         print(rmap)
