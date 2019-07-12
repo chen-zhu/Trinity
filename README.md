@@ -1,3 +1,15 @@
+## Notice
+
+- The instructions may be out of date since this repo is updating nondeterministically.
+
+## Jargons
+
+`camb1.tyrell`: DSL that contains only `select` and `gather`.
+
+`camb2.tyrell`: DSL that contains `select`, `gather` and `spread`. In total 78 different calls per time step.
+
+`camb3.tyrell`: DSL that contains `select`, `gather`, `spread`, `unite` and `separate`. In total 120 different calls per time step.
+
 ## Instructions
 
 In Jupyter, open one of the following notebook and run:

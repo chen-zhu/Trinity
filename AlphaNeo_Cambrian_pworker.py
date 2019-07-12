@@ -36,7 +36,7 @@ def main():
 
 	data_list = []
 
-	spec = S.parse_file('example/camb2.tyrell')
+	spec = S.parse_file('example/camb3.tyrell')
 	mcoder = MorpheusInterpreter()
 
 	while True:

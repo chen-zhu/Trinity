@@ -22,6 +22,7 @@ from tyrell import dsl as D
 from typing import Callable, NamedTuple, List, Any
 
 from scipy.spatial.distance import cosine
+from itertools import product
 
 logger = get_logger('tyrell')
 
@@ -55,12 +56,13 @@ def get_shadow_name(p_df):
     return p_df.replace('RET_DF',"SHADOW")
 
 
-def get_fresh_col():
-    global counter_ 
-    counter_ = counter_ + 1
-
-    fresh_str = 'COL' + str(counter_)
+def get_fresh_col(p_obj,p_ord):
+    dstr = robjects.r(p_obj).r_repr()
+    dhsh = hash(dstr)%1000000
+    # fresh_str = 'COL' + str(counter_)
+    fresh_str = 'COL{}'.format(dhsh+p_ord)
     return fresh_str
+
 
 def get_type(df, index):
     _rscript = 'sapply({df_name}, class)[{pos}]'.format(df_name=df, pos=index)
@@ -120,6 +122,18 @@ class MorpheusInterpreter(PostOrderInterpreter):
                 k=n,
             )
         }
+
+    def equal(self,actual, expect):
+        _rscript = '''
+        tmp1 <- sapply({lhs}, as.character)
+        tmp2 <- sapply({rhs}, as.character)
+        compare(tmp1, tmp2, ignoreOrder = TRUE, ignoreNames = TRUE)
+        '''.format(lhs=actual, rhs=expect)
+        # ignoreNames:TRUE, work for benchmark 23
+        # logger.info(robjects.r(actual))
+        # logger.info(robjects.r(expect))
+        ret_val = robjects.r(_rscript)
+        return True == ret_val[0][0]
 
     # method that generate random input table
     # CAMB: should also generate a shadow table
@@ -372,6 +386,12 @@ class MorpheusInterpreter(PostOrderInterpreter):
                 cond=lambda x: max(list(map(lambda y: int(y), x))) <= n_cols,
                 capture_indices=[0])
 
+        # ======== Cambrian Version ========
+        # if args[1]==args[2], raise
+        # to secure shadow mechanism
+        if len(args[1])==2 and args[1][0]==args[1][1]:
+            raise GeneralError()
+
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- select({table}, {cols})'.format(
                    ret_df=ret_df_name, table=args[0], cols=get_collist(args[1]))
@@ -418,12 +438,39 @@ class MorpheusInterpreter(PostOrderInterpreter):
                 cond=lambda x: x <= n_cols and x != first_idx,
                 capture_indices=[0, 1])
 
+        # ======== Cambrian Version ========
+        # if args[1]==args[2], raise
+        # to secure shadow mechanism
+        if args[1]==args[2]:
+            raise GeneralError()
+
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- unite({table}, {TMP}, {col1}, {col2})'.format(
-                  ret_df=ret_df_name, table=args[0], TMP=get_fresh_col(), col1=str(args[1]), col2=str(args[2]))
+                  ret_df=ret_df_name, table=args[0], TMP=get_fresh_col(args[0],0), col1=str(args[1]), col2=str(args[2]))
         # print("CODE: {}".format(_script))
+        shadow_mincol = min(args[1],args[2])
+        shadow_maxcol = max(args[1],args[2])
+        shadow_maxcnt = robjects.r('max({table}[,c({col1},{col2})])'.format(
+                                    table=get_shadow_name(args[0]),
+                                    col1=str(args[1]), 
+                                    col2=str(args[2])))[0]
+        # print("BEGIN")
+        shadow_script_0 = '{ret_shadow} <- select({table},{cols})'.format(
+            ret_shadow=get_shadow_name(ret_df_name),
+            table=get_shadow_name(args[0]),
+            cols="c(-{})".format(shadow_maxcol),
+            )
+        shadow_script_1 = '{ret_shadow}[,{col}]={smax}'.format(
+            ret_shadow=get_shadow_name(ret_df_name),
+            col=shadow_mincol,
+            smax="c({})".format(shadow_maxcnt+1),
+            )
+        # print("SHADOW-0: {}".format(shadow_script_0))
+        # print("SHADOW-1: {}".format(shadow_script_1))   
         try:
             ret_val = robjects.r(_script)
+            _ = robjects.r(shadow_script_0)
+            _ = robjects.r(shadow_script_1)
             return ret_df_name
         except:
             # logger.error('Error in interpreting unite...')
@@ -461,10 +508,29 @@ class MorpheusInterpreter(PostOrderInterpreter):
 
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- separate({table}, {col1}, c("{TMP1}", "{TMP2}"))'.format(
-                  ret_df=ret_df_name, table=args[0], col1=str(args[1]), TMP1=get_fresh_col(), TMP2=get_fresh_col())
+                  ret_df=ret_df_name, table=args[0], col1=str(args[1]), TMP1=get_fresh_col(args[0],0), TMP2=get_fresh_col(args[0],1))
         # print("CODE: {}".format(_script))
+        shadow_maxcnt = robjects.r('max({table}[,{col}])'.format(
+                                    table=get_shadow_name(args[0]),
+                                    col=str(args[1]), 
+                                    ))[0]
+        # print("BEGIN")
+        shadow_script_0 = '{ret_shadow} <- as.data.frame(append({table},c(-1),after={pos}))'.format(
+            ret_shadow=get_shadow_name(ret_df_name),
+            table=get_shadow_name(args[0]),
+            pos=args[1],
+            )
+        shadow_script_1 = '{ret_shadow}[,{cols}]={val}'.format(
+            ret_shadow=get_shadow_name(ret_df_name),
+            cols="c({},{})".format(args[1],args[1]+1),
+            val="c({})".format(shadow_maxcnt+1),
+            )
+        # print("SHADOW-0: {}".format(shadow_script_0))
+        # print("SHADOW-1: {}".format(shadow_script_1))   
         try:
             ret_val = robjects.r(_script)
+            _ = robjects.r(shadow_script_0)
+            _ = robjects.r(shadow_script_1)
             return ret_df_name
         except:
             # logger.error('Error in interpreting separate...')
@@ -481,6 +547,12 @@ class MorpheusInterpreter(PostOrderInterpreter):
                 index=2,
                 cond=lambda x: x <= n_cols and x > first_idx,
                 capture_indices=[0, 1])
+
+        # ======== Cambrian Version ========
+        # if args[1]==args[2], raise
+        # to secure shadow mechanism
+        if args[1]==args[2]:
+            raise GeneralError()
 
         # print("PASS assertion.")
         ret_df_name = get_fresh_name()
@@ -520,6 +592,12 @@ class MorpheusInterpreter(PostOrderInterpreter):
                 index=1,
                 cond=lambda x: max(list(map(lambda y: int(y), x))) <= n_cols,
                 capture_indices=[0])
+
+        # ======== Cambrian Version ========
+        # if args[1]==args[2], raise
+        # to secure shadow mechanism
+        if len(args[1])==2 and args[1][0]==args[1][1]:
+            raise GeneralError()
 
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- gather({table}, KEY, VALUE, {cols})'.format(
@@ -627,7 +705,7 @@ class MorpheusInterpreter(PostOrderInterpreter):
 
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- {table} %>% summarise({TMP} = {aggr} (`{col}`))'.format(
-                  ret_df=ret_df_name, table=args[0], TMP=get_fresh_col(), aggr=str(args[1]), col=colname)
+                  ret_df=ret_df_name, table=args[0], TMP=get_fresh_col(args[0],0), aggr=str(args[1]), col=colname)
         # print("CODE: {}".format(_script))
         try:
             ret_val = robjects.r(_script)
@@ -657,10 +735,20 @@ class MorpheusInterpreter(PostOrderInterpreter):
 
         ret_df_name = get_fresh_name()
         _script = '{ret_df} <- {table} %>% mutate({TMP}=.[[{col1}]] {op} .[[{col2}]])'.format(
-                  ret_df=ret_df_name, table=args[0], TMP=get_fresh_col(), op=args[1], col1=str(args[2]), col2=str(args[3]))
+                  ret_df=ret_df_name, table=args[0], TMP=get_fresh_col(args[0],0), op=args[1], col1=str(args[2]), col2=str(args[3]))
         # print("CODE: {}".format(_script))
+        shadow_maxcnt = robjects.r('max({table}[,{cols}])'.format(
+                                    table=get_shadow_name(args[0]),
+                                    cols="c({},{})".format(args[2],args[3]),))[0]
+        # print("BEGIN")
+        shadow_script = '{ret_shadow} <- as.data.frame(cbind(as.matrix({table}),{smax}))'.format(
+                         ret_shadow=get_shadow_name(ret_df_name), 
+                         table=get_shadow_name(args[0]), 
+                         smax="c({})".format(shadow_maxcnt+1), )
+        # print("SHADOW_MUTATE: {}".format(shadow_script))
         try:
             ret_val = robjects.r(_script)
+            _ = robjects.r(shadow_script)
             return ret_df_name
         except:
             # logger.error('Error in interpreting mutate...')
@@ -793,142 +881,100 @@ def camb_get_np_obj(p_obj):
             dc = 0
         else:
             np_obj = numpy.asarray(robjects.r(p_obj),dtype=numpy.object).T
+            # np_obj = numpy.asarray(robjects.r(p_obj),dtype=numpy.str).T
     except Exception:
         np_obj = numpy.asarray([[]])
         dr = 0
         dc = 0
     return (np_obj, dr, dc)
 
-def camb_get_col_names(p_obj):
-    # just need to get column names
-    try:
-        ac = robjects.r("colnames({table})".format(table=p_obj))
-    except Exception:
-        # the same applies to this
-        # then just create an empty list of column ignoreNames
-        ac = []
-    return ac
+'''
+string hashing function hash(s)= g(s[0])*5+g(s[-1])+1
+total: 49 tags, 0~48
+Notice: to lower first
+'''
+def str2hash(s):
+    hash_gp = ["","abcde","fghij","klmno","pqrst","uvwxyz","0123456789"]
+    hash_dt = {
+        hash_gp[i][j]:i for i in range(len(hash_gp)) for j in range(len(hash_gp[i]))
+    }
+    ls = s.lower()
+    if len(ls)==0:
+        return 0
+    hash_val = hash_dt.setdefault(ls[0],0)*len(hash_gp) + hash_dt.setdefault(ls[-1],0)
+    return hash_val
 
 '''
-a: cell2col
-b: cell2cell
-c: col2col
-d: col2cell
+float hashing function hash(x)= dLeft(x)*10+dRight
+total: 100 tags, 0~99
 '''
-CAMB_NCOL = 20
-CAMB_NROW = 50
-CAMB_LIST = ["<PAD>","<aNEW>","<aDUP>","<aOUT>"]
-CAMB_LIST +=["<bNEW>","<bDUP>","<bOUT>"]
-CAMB_LIST +=["<cNEW>","<cDUP>","<cOUT>"]
-CAMB_LIST +=["<dNEW>","<dDUP>","<dOUT>"]
-CAMB_LIST += ["<aCOL_{}>".format(i) for i in range(CAMB_NCOL)]
-CAMB_LIST += ["<bCOL_{}>".format(i) for i in range(CAMB_NCOL)]
-CAMB_LIST += ["<cCOL_{}>".format(i) for i in range(CAMB_NCOL)]
-CAMB_LIST += ["<dCOL_{}>".format(i) for i in range(CAMB_NCOL)]
+def num2hash(x):
+    if numpy.isnan(x) or numpy.isinf(x):
+        return 0
+    dx = abs(x)
+    dRight = int(dx*10)-int(dx)*10
+    dLeft = int(dx)-int(dx/10)*10
+    hash_val = dLeft*10 + dRight
+    return hash_val
+
+'''
+<PAD>: padding token for all maps
+<EXT>: existing token
+<tNUM>: numeric type
+<tSTR>: string type
+<tUNK>: undefined type
+'''
+CAMB_NCOL = 15
+CAMB_NROW = 15
+# CAMB_LIST = ["<PAD>","<EXT>","<tNUM>","<tSTR>","<tUNK>"]
+CAMB_LIST = ["<PAD>"]
+CAMB_LIST += ["<STR_{}>".format(i) for i in range(49)]
+CAMB_LIST += ["<NUM_{}>".format(i) for i in range(100)]
+
+
 CAMB_DICT = {CAMB_LIST[i]:i for i in range(len(CAMB_LIST))}
 
-def camb_out_check(p_val):
-    # check if the value belongs to <OUT>
-    # True: it's out
-    # False: it's NOT out
-    if isinstance(p_val,numpy.float):
-        if numpy.isnan(p_val) or numpy.isinf(p_val):
-            # values that we do not want to put into set (unknown/uncared)
-            return True
-    return False
-
-def camb_construct_column_dict(p_obj, p_r, p_c):
-    # p_obj: a numpy array
-    # construct the column dictionary
-    # excluding some unknown/uncared values
-    ret_dic = {}
-    for j in range(p_c):
-        tmp_set = set()
-        for i in range(p_r):
-            if camb_out_check(p_obj[i,j]):
-                continue
-            tmp_set.add(p_obj[i,j])
-        ret_dic[j] = tmp_set
-    return ret_dic
-
-def camb_get_x2x_value(p_val, p_dic, p_prefix):
-    # p_val: value of a numpy type to be converted to token
-    # p_dic: dictionary that provides categories
-    # p_prefix: a/b/c/d
-    dfound = []
-    for i in range(CAMB_NCOL):
-        if i not in p_dic:
-            # monotonically, break since it does not exist
-            break
-        if p_val in p_dic[i]:
-            dfound.append(i)
-
-    dtoken = None
-    if len(dfound)==0:
-        # could be <NEW> or <CMB> or <OUT>
-        # we treat it as <NEW>/<OUT> temporarily
-        if camb_out_check(p_val):
-            dtoken = "<{}OUT>".format(p_prefix)
-        else:
-            dtoken = "<{}NEW>".format(p_prefix)
-    elif len(dfound)==1:
-        # if it's found, it can't be <OUT>
-        dtoken = "<{}COL_{}>".format(p_prefix,dfound[0])
-    else:
-        # appear in more than 2
-        dtoken = "<{}DUP>".format(p_prefix)
-
-    return CAMB_DICT[dtoken]
-
 '''
-trying the new column markup method to create a
-column markup map
+Cambrian/Charniodiscus Version
+just returning all non-deterministic abstraction maps
+packed in a numpy array
+(n_maps, map_r, map_c) === (n_maps, CAMB_NROW, CAMB_NCOL)
 '''
-def camb_get_features(p0_obj, p1_obj, verbose=False):
+def camb_get_abs(p_obj):
+    np_obj, dr, dc = camb_get_np_obj(p_obj)
 
-    np0_obj, dr0, dc0 = camb_get_np_obj(p0_obj)
-    np1_obj, dr1, dc1 = camb_get_np_obj(p1_obj)
-    ac0 = camb_get_col_names(p0_obj)
-    ac1 = camb_get_col_names(p1_obj)
+    hash_map = numpy.zeros((CAMB_NROW,CAMB_NCOL),dtype=numpy.int)
+    # existence_map = numpy.zeros((CAMB_NROW,CAMB_NCOL),dtype=numpy.int)
+    # type_map = numpy.zeros((CAMB_NROW,CAMB_NCOL),dtype=numpy.int)
+    for i in range(min(CAMB_NROW,dr)):
+        for j in range(min(CAMB_NCOL,dc)):
+            # existence_map[i,j] = CAMB_DICT["<EXT>"]
+            # if isinstance(np_obj[i,j],numpy.str):
+            #     type_map[i,j] = CAMB_DICT["<tSTR>"]
+            # elif isinstance(np_obj[i,j],numpy.float):
+            #     type_map[i,j] = CAMB_DICT["<tNUM>"]
+            # else:
+            #     type_map[i,j] = CAMB_DICT["<tUNK>"]
+            if isinstance(np_obj[i,j],numpy.str):
+                hash_map[i,j] = CAMB_DICT["<STR_{}>".format(str2hash(np_obj[i,j]))]
+            elif isinstance(np_obj[i,j],numpy.float):
+                hash_map[i,j] = CAMB_DICT["<NUM_{}>".format(num2hash(np_obj[i,j]))]
 
-    assert len(ac0)==dc0
-    assert len(ac1)==dc1
+    # (n_maps, CAMB_NROW, CAMB_NCOL)
+    # return numpy.asarray([existence_map,type_map])
+    return hash_map
 
-    # a: cell2col
-    # b: cell2cell
-    # c: col2col
-    # d: col2cell
 
-    ab_dic = camb_construct_column_dict(np0_obj,dr0,dc0)
-    # cell to col mapping
-    amap = numpy.zeros((1,CAMB_NCOL)) # map for columns
-    for i in range(min(CAMB_NCOL, dc1)):
-        amap[0,i] = camb_get_x2x_value(ac1[i],ab_dic,"a")
-    # cell to cell mapping
-    bmap = numpy.zeros((CAMB_NROW,CAMB_NCOL)) # 0 is <PAD>
-    for i in range(min(CAMB_NROW,dr1)):
-        for j in range(min(CAMB_NCOL,dc1)):
-            bmap[i,j] = camb_get_x2x_value(np1_obj[i,j],ab_dic,"b")
+    
 
-    cd_dic = {i:set([ac0[i]]) for i in range(len(ac0))} # [ac0[i]] for entire string/value
-    # col to col mapping
-    cmap = numpy.zeros((1,CAMB_NCOL)) # map for columns
-    for i in range(min(CAMB_NCOL, dc1)):
-        cmap[0,i] = camb_get_x2x_value(ac1[i],cd_dic,"c")
-    # col to cell mapping
-    dmap = numpy.zeros((CAMB_NROW,CAMB_NCOL)) # 0 is <PAD>
-    for i in range(min(CAMB_NROW,dr1)):
-        for j in range(min(CAMB_NCOL,dc1)):
-            dmap[i,j] = camb_get_x2x_value(np1_obj[i,j],cd_dic,"d")
 
-    rmap = numpy.vstack((amap, bmap, cmap, dmap))
-    # rmap = numpy.vstack((amap, bmap))
 
-    if verbose:
-        print(rmap)
 
-    return rmap
-    # (row, col) -> (col, row) / (dim, maxlen)
-    # return dmap.T
-    # return dmap.flatten().tolist()
-    # return dmap[0,:].flatten().tolist()
+
+
+
+
+
+
+
+
