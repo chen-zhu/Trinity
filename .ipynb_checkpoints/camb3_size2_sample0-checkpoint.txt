@@ -1,0 +1,30 @@
+         relates unlitigating    excavating
+1 unexactingness       -10.31 representment
+2        drabbed        -2.71   hexahydroxy
+3       quietive        -0.49   hexahydroxy
+4  prespeculated        35.12 representment
+5       benefact        -3.19 representment
+6   antimoniuret       -93.34 representment
+7       downhill       -50.07 representment
+
+
+gather(table, ['1'])
+  unlitigating    excavating kickboard        trellis
+1       -10.31 representment   relates unexactingness
+2        -2.71   hexahydroxy   relates        drabbed
+3        -0.49   hexahydroxy   relates       quietive
+4        35.12 representment   relates  prespeculated
+5        -3.19 representment   relates       benefact
+6       -93.34 representment   relates   antimoniuret
+7       -50.07 representment   relates       downhill
+
+
+select(table, ['2', '3'])
+     excavating kickboard
+1 representment   relates
+2   hexahydroxy   relates
+3   hexahydroxy   relates
+4 representment   relates
+5 representment   relates
+6 representment   relates
+7 representment   relates

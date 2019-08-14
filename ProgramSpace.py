@@ -29,9 +29,26 @@ function updates for several Nodes
 '''
 def Node_eq(self, other):
     return self.__repr__()==other.__repr__()
+def Node_hash(self):
+    return self.__repr__().__hash__()
 setattr(AtomNode,"__eq__",Node_eq)
 setattr(ParamNode,"__eq__",Node_eq)
 setattr(ApplyNode,"__eq__",Node_eq)
+setattr(AtomNode,"__hash__",Node_hash)
+setattr(ParamNode,"__hash__",Node_hash)
+setattr(ApplyNode,"__hash__",Node_hash)
+
+def Prod_eq(self, other):
+    return self.__repr__()==other.__repr__()
+def Prod_hash(self):
+    return self.__repr__().__hash__()
+setattr(ParamProduction,"__eq__",Prod_eq)
+setattr(EnumProduction,"__eq__",Prod_eq)
+setattr(FunctionProduction,"__eq__",Prod_eq)
+setattr(ParamProduction,"__hash__",Prod_hash)
+setattr(EnumProduction,"__hash__",Prod_hash)
+setattr(FunctionProduction,"__hash__",Prod_hash)
+
 
 class ProgramSpace(object):
     # NOTICE:
@@ -104,6 +121,25 @@ class ProgramSpace(object):
                 ]
 
     '''
+    support temporal solution for undo
+    '''
+    def make_copy(self):
+        new_ps = ProgramSpace(
+            self.spec,
+            self.interpreter,
+            self.inputs,
+            self.output,
+        )
+        new_ps.shells = copy.deepcopy(self.shells)
+        new_ps.node_list = copy.deepcopy(self.node_list)
+        new_ps.node_dict = copy.deepcopy(self.node_dict)
+        new_ps.prod_list = copy.deepcopy(self.prod_list)
+        new_ps.prod_dict = copy.deepcopy(self.prod_dict)
+        new_ps.type_dict = copy.deepcopy(self.type_dict)
+
+        return new_ps
+
+    '''
     initialize and add shells to the current Program Space
     NOTICE: should call this on a newly initialized Program Space
     e.g., self.shells is empty
@@ -123,6 +159,23 @@ class ProgramSpace(object):
                 self.add_neighboring_shell(d_shell)
         # just call the recursive function
         post_order_travesal(p_prog)
+
+    '''
+    initialize from entry of saved dataset
+    entry: (prog, str_example)
+    '''
+    def init_from_entry(self, p_entry):
+        d_prog = p_entry[0]
+        ds_example = p_entry[1]
+        self.inputs = [
+            self.interpreter.load_data_into_var(p) 
+            for p in ds_example.input
+        ]
+        self.output = self.interpreter.load_data_into_var(
+            ds_example.output
+        )
+        self.init_by_prog(d_prog)
+        # had better check for validity manually after this
         
 
     '''
@@ -145,6 +198,19 @@ class ProgramSpace(object):
                         (pid, p)
                     )
         return ret_shells
+
+
+    '''
+    return a sample ApplyNode from shell based on the current state
+    does not change the state of ProgramSpace at all
+    '''
+    def get_node_from_shell(self, d_shell):
+        d_prod = self.prod_list[d_shell[0]]
+        d_rhs = d_shell[1]
+        return ApplyNode(
+            d_prod,
+            [self.node_list[i] for i in d_rhs],
+        )
 
 
     def add_neighboring_shell(self, d_shell, update_node_data=True):
@@ -209,13 +275,24 @@ class ProgramSpace(object):
         return True
 
     '''
-    get all ApplyNode that are at the root
-    (since there could be multiple ASTs in a hypergraph,
-    get those with at least one child, i.e., those should be ApplyNode)
+    see README/Jargons for definition
     '''
-    def get_frontiers(self):
+    def get_strict_frontiers(self):
         ret_frontiers = []
         for i in self.node_dict["ApplyNode"]+self.node_dict["ParamNode"]:
+            # check if the node is root or not
+            # only add root nodes
+            if (not hasattr(self.node_list[i],"ps_parents")) or len(self.node_list[i].ps_parents)==0:
+                # this is one root
+                ret_frontiers.append(i)
+        return ret_frontiers
+
+    '''
+    see README/Jargons for definition
+    '''
+    def get_roots(self):
+        ret_frontiers = []
+        for i in self.node_dict["ApplyNode"]:
             # check if the node is root or not
             # only add root nodes
             if (not hasattr(self.node_list[i],"ps_parents")) or len(self.node_list[i].ps_parents)==0:
@@ -229,7 +306,7 @@ class ProgramSpace(object):
     otherwise, return None
     '''
     def check_eq(self):
-        tmp_frontiers = self.get_frontiers()
+        tmp_frontiers = self.get_roots()
         for i in tmp_frontiers:
             if self.interpreter.equal( self.node_list[i].ps_data, self.output ):
                 return i

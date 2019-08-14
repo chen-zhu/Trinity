@@ -1,3 +1,9 @@
+# local datasets/outputs
+0811Size3_Raw/
+0811Size4_Raw/
+0812Size3Relaxed_Raw/
+outputs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
